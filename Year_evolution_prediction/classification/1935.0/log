@@ -1,0 +1,47 @@
+
+Dimension:   1
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space phi00:              7
+
+Generating phi01 ...
+mpirank =    0  #generated =             13  #selected =             19  progress =  20.0%
+mpirank =    1  #generated =              0  #selected =              6  progress =  20.0%
+mpirank =    4  #generated =              4  #selected =             10  progress =  20.0%
+mpirank =    4  #generated =              6  #selected =             12  progress =  40.0%
+mpirank =    7  #generated =              6  #selected =             12  progress =  20.0%
+mpirank =    9  #generated =             15  #selected =             21  progress =  20.0%
+mpirank =    2  #generated =              8  #selected =             14  progress =  20.0%
+Number of newly generated features:              48
+Redundant check on the newly generated features ...
+Number of newly generated features after redundant check:               8
+Total number of features in the space phi01:             15
+
+Generating phi02 ...
+mpirank =    1  #generated =             11  #selected =             17  progress =  20.0%
+mpirank =    2  #generated =              5  #selected =             19  progress =  20.0%
+mpirank =    4  #generated =             28  #selected =             40  progress =  20.0%
+mpirank =    7  #generated =             29  #selected =             41  progress =  20.0%
+mpirank =    9  #generated =             27  #selected =             48  progress =  20.0%
+mpirank =    5  #generated =             23  #selected =             29  progress =  20.0%
+mpirank =    5  #generated =             36  #selected =             42  progress =  40.0%
+mpirank =    0  #generated =             25  #selected =             44  progress =  20.0%
+Total number of newly generated features:             161
+Total number of features in the space phi02:            176
+
+Sure Independence Screening ...
+Size of the SIS-selected subspace from phi02:          1
+Warning: Size of the selected subspace is smaller than nf_sis (SISSO.in) !!!
+
+Descriptor Identification (DI) starts ...
+dimension =   1   mpirank =   1   progress =  20.0%
+
+Dimension:   2
+-------------------
+Feature Construction (FC) starts ...
+Warning: Size of the last selected subspace < nf_sis! No more FC will be performed.
+
+Descriptor Identification (DI) starts ...
+
+SISSO done successfully!
+

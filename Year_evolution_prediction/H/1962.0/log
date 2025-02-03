@@ -1,0 +1,76 @@
+
+Dimension:   1
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space phi00:              7
+
+Generating phi01 ...
+mpirank =    0  #generated =             13  #selected =             19  progress =  20.0%
+mpirank =    1  #generated =              0  #selected =              6  progress =  20.0%
+mpirank =    4  #generated =              4  #selected =             10  progress =  20.0%
+mpirank =    4  #generated =              6  #selected =             12  progress =  40.0%
+mpirank =    7  #generated =              6  #selected =             12  progress =  20.0%
+mpirank =    2  #generated =              8  #selected =             14  progress =  20.0%
+mpirank =    9  #generated =             15  #selected =             21  progress =  20.0%
+Number of newly generated features:              48
+Redundant check on the newly generated features ...
+Number of newly generated features after redundant check:               8
+Total number of features in the space phi01:             15
+
+Generating phi02 ...
+mpirank =    4  #generated =              2  #selected =             14  progress =  20.0%
+mpirank =    1  #generated =             17  #selected =             23  progress =  20.0%
+mpirank =    2  #generated =             41  #selected =             55  progress =  20.0%
+mpirank =    7  #generated =             32  #selected =             44  progress =  20.0%
+mpirank =    0  #generated =             32  #selected =             51  progress =  20.0%
+mpirank =    9  #generated =             43  #selected =             64  progress =  20.0%
+mpirank =    5  #generated =             33  #selected =             39  progress =  20.0%
+mpirank =    5  #generated =             51  #selected =             57  progress =  40.0%
+Number of newly generated features:             218
+Redundant check on the newly generated features ...
+Number of newly generated features after redundant check:              26
+Total number of features in the space phi02:             41
+
+Generating phi03 ...
+mpirank =    1  #generated =             40  #selected =             63  progress =  20.0%
+mpirank =    2  #generated =             89  #selected =            144  progress =  20.0%
+mpirank =    4  #generated =             77  #selected =             91  progress =  20.0%
+mpirank =    7  #generated =             84  #selected =            128  progress =  20.0%
+mpirank =    1  #generated =             85  #selected =            108  progress =  40.0%
+mpirank =    5  #generated =             72  #selected =            129  progress =  20.0%
+mpirank =    9  #generated =             72  #selected =            136  progress =  20.0%
+mpirank =    1  #generated =            133  #selected =            156  progress =  60.0%
+mpirank =    7  #generated =            168  #selected =            212  progress =  40.0%
+mpirank =    4  #generated =            162  #selected =            176  progress =  40.0%
+mpirank =    5  #generated =            145  #selected =            202  progress =  40.0%
+mpirank =    9  #generated =            147  #selected =            211  progress =  40.0%
+mpirank =    0  #generated =             96  #selected =            147  progress =  20.0%
+mpirank =    1  #generated =            175  #selected =            198  progress =  80.0%
+mpirank =    6  #generated =             57  #selected =             63  progress =  20.0%
+mpirank =    1  #generated =            217  #selected =            240  progress = 100.0%
+mpirank =    5  #generated =            216  #selected =            273  progress =  60.0%
+mpirank =    6  #generated =            122  #selected =            128  progress =  40.0%
+mpirank =    3  #generated =             56  #selected =             62  progress =  20.0%
+mpirank =    2  #generated =            184  #selected =            239  progress =  40.0%
+mpirank =    0  #generated =            182  #selected =            233  progress =  40.0%
+mpirank =    6  #generated =            174  #selected =            180  progress =  60.0%
+mpirank =    3  #generated =            111  #selected =            117  progress =  40.0%
+mpirank =    3  #generated =            172  #selected =            178  progress =  60.0%
+mpirank =    3  #generated =            220  #selected =            226  progress =  80.0%
+mpirank =    3  #generated =            261  #selected =            267  progress = 100.0%
+Total number of newly generated features:            1711
+Total number of features in the space phi03:           1752
+
+Sure Independence Screening ...
+Size of the SIS-selected subspace from phi03:          1
+Warning: Size of the selected subspace is smaller than nf_sis (SISSO.in) !!!
+
+Descriptor Identification (DI) starts ...
+dimension =   1   mpirank =    1   progress =  20.0%
+
+Dimension:   2
+-------------------
+Feature Construction (FC) starts ...
+Warning: Size of the last selected subspace < nf_sis! No more FC will be performed.
+
+Descriptor Identification (DI) starts ...

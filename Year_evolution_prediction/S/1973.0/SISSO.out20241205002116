@@ -1,0 +1,111 @@
+****************************************************************
+  Sure Independence Screening and Sparsifying Operator (SISSO)  
+             Version SISSO.3.3, July, 2023.                
+****************************************************************
+
+Read in data from train.dat
+Read in data from SISSO.in
+Property type:     1
+Number of tasks:        1
+Descriptor dimension:        2
+Number of samples for the task(s):     10
+Restarts :  0
+Number of scalar features:       29
+Tier of the feature space:        3
+Maximal feature complexity (number of operators in a feature):        6
+Unit of input primary feature, each represented by a row vector: 
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+The feature will be discarded if the minimum of the maximal abs. value in it <    0.10000E-02
+The faature will be discarded if the maximum of the maximal abs. value in it >     0.10000E+06
+Size of the SIS-selected (single) subspace :  10000 10000
+Operators for feature construction: (+)(-)(*) (+)(-)(*) (+)(-)(*) 
+Method for sparse regression:  L0        
+Fitting intercept:      T
+Metric for model selection: RMSE
+Number of the top-ranked models to output:      100
+--------------------------------------------------------------------------------
+
+Dimension:   1
+-------------------
+Feature Construction (FC) starts ...
+Population Standard Deviation (SD) of the task 001:   23.77028
+Total number of features in the space phi00:             29
+Total number of features in the space phi01:            157
+Total number of features in the space phi02:          10396
+Total number of features in the space phi03:       27512808
+Size of the SIS-selected subspace from phi03:      10000
+Time (second) used for this FC:            5.94
+
+Descriptor Identification (DI) starts ...
+Total number of SIS-selected features from all dimensions:      10000
+ 
+  1D descriptor: 
+     d001 = (((feature24*feature26)-(feature23*feature25))-(feature22*(feature22+feature28)))    feature_ID:000001
+
+  1D model(y=sum(ci*di)+c0): 
+     coeff.(ci)_task001:    -0.7011459603E+02
+             c0_task001:     0.2161300736E+02
+     RMSE,MaxAE_task001:     0.1917511719E+01    0.4092825659E+01
+
+     RMSE and MaxAE of the model:   1.917512  4.092826
+--------------------------------------------------------------------------------
+Time (second) used for this DI:            0.05
+
+Dimension:   2
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space phi00:             29
+Total number of features in the space phi01:            157
+Total number of features in the space phi02:          10396
+Total number of features in the space phi03:       27512808
+Size of the SIS-selected subspace from phi03:      10000
+Time (second) used for this FC:            6.59
+
+Descriptor Identification (DI) starts ...
+Total number of SIS-selected features from all dimensions:      20000
+ 
+Final model/descriptor !
+================================================================================
+  2D descriptor: 
+     d001 = (((feature24*feature26)-(feature23*feature25))-(feature22*(feature22+feature28)))    feature_ID:000001
+     d002 = (((feature28-feature26)-feature26)*((feature21-feature28)*(feature23*feature25)))    feature_ID:010008
+
+  2D model(y=sum(ci*di)+c0): 
+     coeff.(ci)_task001:    -0.7101059719E+02    0.3593057024E+02
+             c0_task001:     0.2032067490E+02
+     RMSE,MaxAE_task001:     0.3225627032E+00    0.7158708593E+00
+
+     RMSE and MaxAE of the model:   0.322563  0.715871
+================================================================================
+Time (second) used for this DI:           13.24
+Total time (second):           26.02
+Have a nice day !    
+
