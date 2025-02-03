@@ -1,0 +1,73 @@
+
+Dimension:   1
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space phi00:             27
+
+Generating phi01 ...
+mpirank =    0  #generated =            257  #selected =            283  progress =  20.0%
+mpirank =    0  #generated =            559  #selected =            585  progress =  40.0%
+mpirank =    0  #generated =            813  #selected =            839  progress =  60.0%
+mpirank =    0  #generated =           1052  #selected =           1078  progress =  80.0%
+mpirank =    0  #generated =           1272  #selected =           1298  progress = 100.0%
+Number of newly generated features:            1272
+Redundant check on the newly generated features ...
+Number of newly generated features after redundant check:            1238
+Total number of features in the space phi01:           1265
+
+Generating phi02 ...
+mpirank =    0  #generated =         367575  #selected =           2273  progress =  20.0%
+mpirank =    0  #generated =         733301  #selected =           2498  progress =  40.0%
+mpirank =    0  #generated =        1095980  #selected =           2118  progress =  60.0%
+mpirank =    0  #generated =        1464015  #selected =           2283  progress =  80.0%
+mpirank =    0  #generated =        1828228  #selected =           2303  progress = 100.0%
+Total number of newly generated features:         1828228
+Total number of features in the space phi02:        1829493
+
+Sure Independence Screening ...
+Size of the SIS-selected subspace from phi02:       1000
+
+Descriptor Identification (DI) starts ...
+dimension =   1   mpirank =   0   progress =  20.0%
+dimension =   1   mpirank =   0   progress =  40.0%
+dimension =   1   mpirank =   0   progress =  60.0%
+dimension =   1   mpirank =   0   progress =  80.0%
+dimension =   1   mpirank =   0   progress = 100.0%
+
+Dimension:   2
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space phi00:             27
+
+Generating phi01 ...
+mpirank =    0  #generated =            257  #selected =            283  progress =  20.0%
+mpirank =    0  #generated =            559  #selected =            584  progress =  40.0%
+mpirank =    0  #generated =            813  #selected =            838  progress =  60.0%
+mpirank =    0  #generated =           1052  #selected =           1077  progress =  80.0%
+mpirank =    0  #generated =           1272  #selected =           1296  progress = 100.0%
+Number of newly generated features:            1272
+Redundant check on the newly generated features ...
+Number of newly generated features after redundant check:            1238
+Total number of features in the space phi01:           1265
+
+Generating phi02 ...
+mpirank =    0  #generated =         367575  #selected =           2672  progress =  20.0%
+mpirank =    0  #generated =         733301  #selected =           2230  progress =  40.0%
+mpirank =    0  #generated =        1095980  #selected =           2413  progress =  60.0%
+mpirank =    0  #generated =        1464015  #selected =           2894  progress =  80.0%
+mpirank =    0  #generated =        1828228  #selected =           2347  progress = 100.0%
+Total number of newly generated features:         1828228
+Total number of features in the space phi02:        1829493
+
+Sure Independence Screening ...
+Size of the SIS-selected subspace from phi02:       1000
+
+Descriptor Identification (DI) starts ...
+dimension =   2   mpirank =   0   progress =  20.0%
+dimension =   2   mpirank =   0   progress =  40.0%
+dimension =   2   mpirank =   0   progress =  60.0%
+dimension =   2   mpirank =   0   progress =  80.0%
+dimension =   2   mpirank =   0   progress = 100.0%
+
+SISSO done successfully!
+

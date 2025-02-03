@@ -1,0 +1,110 @@
+****************************************************************
+  Sure Independence Screening and Sparsifying Operator (SISSO)  
+             Version SISSO.3.3, July, 2023.                
+****************************************************************
+
+Read in data from train.dat
+Read in data from SISSO.in
+Property type:     2
+Number of tasks:        1
+Descriptor dimension:        2
+Number of samples for the task(s):     66
+Restarts :  0
+Number of samples in each category of the task 001:    36   30
+Convexity of the domains of the task 001:     1    1
+Domain-boundary tolerance:   0.001000
+Number of scalar features:       34
+Tier of the feature space:        2
+Maximal feature complexity (number of operators in a feature):        3
+Unit of input primary feature, each represented by a row vector: 
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+    1.00
+The feature will be discarded if the minimum of the maximal abs. value in it <    0.10000E-02
+The faature will be discarded if the maximum of the maximal abs. value in it >     0.10000E+06
+Size of the SIS-selected (single) subspace :   1000  1000
+Operators for feature construction: (+)(-)(*) (+)(-)(*) 
+Method for sparse regression:  L0        
+Number of the top-ranked models to output:      100
+--------------------------------------------------------------------------------
+
+Dimension:   1
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space phi00:             34
+Total number of features in the space phi01:           1190
+Total number of features in the space phi02:        1612349
+Size of the SIS-selected subspace from phi02:       1000
+Time (second) used for this FC:            3.66
+
+Descriptor Identification (DI) starts ...
+Total number of SIS-selected features from all dimensions:       1000
+ 
+  1D descriptor: 
+     d001 = ((feature12-feature7)+(feature32-feature34))    feature_ID:000001
+
+Number of data in all overlap regions:        40
+Actual number (without double counting) of data in all overlap regions:         40
+Size of the overlap (1D:length, 2D:area, 3D:volume):        0.34523
+Note: negative means no overlap, with the magnitude being the min distance between domains.
+--------------------------------------------------------------------------------
+Time (second) used for this DI:            0.02
+
+Dimension:   2
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space phi00:             34
+Total number of features in the space phi01:           1190
+Total number of features in the space phi02:        1612349
+Size of the SIS-selected subspace from phi02:       1000
+Time (second) used for this FC:            3.85
+
+Descriptor Identification (DI) starts ...
+Total number of SIS-selected features from all dimensions:       2000
+ 
+Final model/descriptor !
+================================================================================
+  2D descriptor: 
+     d001 = ((feature26-feature5)+(feature32-feature13))    feature_ID:000164
+     d002 = ((feature34-feature4)*(feature28-feature34))    feature_ID:001335
+
+Number of data in all overlap regions:        18
+Actual number (without double counting) of data in all overlap regions:         18
+Size of the overlap (1D:length, 2D:area, 3D:volume):        0.22830
+Note: negative means no overlap, with the magnitude being the min distance between domains.
+================================================================================
+Time (second) used for this DI:           99.39
+Total time (second):          107.08
+Have a nice day !    
+
