@@ -1,0 +1,16 @@
+Setting up directories
+  at /scratch/user/peterchao1/peterchao1/6263547_1662996770000000591997450
+mkdir: cannot create directory ‘/scratch/user/peterchao1/peterchao1’: Cannot send after transport endpoint shutdown
+cp: failed to access ‘/scratch/user/peterchao1/peterchao1/6263547_1662996770000000591997450’: Cannot send after transport endpoint shutdown
+/var/spool/slurmd/job6263547/slurm_script: line 43: cd: /scratch/user/peterchao1/peterchao1/6263547_1662996770000000591997450: Cannot send after transport endpoint shutdown
+/var/spool/slurmd/job6263547/slurm_script: line 30: gaussian_test.log: No such device
+touch: cannot touch ‘job_manager-complete’: No such device
+cp: failed to access ‘/scratch/user/peterchao1/Plastic_Crystal/Volume/50/’: Cannot send after transport endpoint shutdown
+cp: failed to access ‘/scratch/user/peterchao1/Plastic_Crystal/Volume/50/’: Cannot send after transport endpoint shutdown
+cp: failed to access ‘/scratch/user/peterchao1/Plastic_Crystal/Volume/50/’: Cannot send after transport endpoint shutdown
+Cleaning up
+/var/spool/slurmd/job6263547/slurm_script: line 55: cd: /scratch/user/peterchao1/Plastic_Crystal/Volume/50: Cannot send after transport endpoint shutdown
+rm: cannot remove ‘/scratch/user/peterchao1/peterchao1/6263547_1662996770000000591997450’: Cannot send after transport endpoint shutdown
+rm: cannot remove ‘job_lsf_ada.sh’: Cannot send after transport endpoint shutdown
+rm: cannot remove ‘job_vici.sh’: Cannot send after transport endpoint shutdown
+rm: cannot remove ‘lsf_curie.sh’: Cannot send after transport endpoint shutdown

@@ -1,0 +1,253 @@
+ Entering Gaussian System, Link 0=g16
+ Input=gaussian_test.inp
+ Output=gaussian_test.log
+ Initial command:
+ /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l1.exe "/scratch/user/peterchao1/peterchao1/6336238_1664466188000000947871017/Gau-224241.inp" -scrdir="/scratch/user/peterchao1/peterchao1/6336238_1664466188000000947871017/"
+ Entering Link 1 = /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l1.exe PID=    224242.
+  
+ Copyright (c) 1988-2017, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision B.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2016.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevB.01 20-Dec-2017
+                29-Sep-2022 
+ ******************************************
+ %chk=35.chk
+ %nprocshared=4
+ Will use up to    4 processors via shared memory.
+ %mem=8000mb
+ --------------------------------------------------------------
+ #T wB97XD//def2svpp Volume=tight Geom=AllCheckpoint Guess=Read
+ --------------------------------------------------------------
+ Structure from the checkpoint file:  "35.chk"
+ -------
+ Monomer
+ -------
+ Charge =  0 Multiplicity = 1
+ Z-Matrix found in chk file.
+ C
+ Br,1,rbr
+ Br,1,rbr,2,A
+ Br,1,rbr,2,A,3,120.,0
+ Br,1,rbr,2,A,3,-120.,0
+      Variables:
+ rbr=1.93782751
+ A=109.47122063
+ Recover connectivity data from disk.
+    3 tetrahedral angles replaced.
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  Br   1.937828   0.000000
+     3  Br   1.937828   3.164459   0.000000
+     4  Br   1.937828   3.164459   3.164459   0.000000
+     5  Br   1.937828   3.164459   3.164459   3.164459   0.000000
+ Framework group  TD[O(C),4C3(Br)]
+ Deg. of freedom     1
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0        0.000000    0.000000    0.000000
+      2         35           0        1.118805    1.118805    1.118805
+      3         35           0       -1.118805   -1.118805    1.118805
+      4         35           0       -1.118805    1.118805   -1.118805
+      5         35           0        1.118805   -1.118805   -1.118805
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):           0.6394997           0.6394997           0.6394997
+   142 basis functions,   345 primitive gaussians,   155 cartesian basis functions
+    73 alpha electrons       73 beta electrons
+       nuclear repulsion energy      1458.4901649771 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    2 SFac= 4.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Nuclear repulsion after empirical dispersion term =     1458.4887574223 Hartrees.
+  24 Symmetry operations used in ECPInt.
+ ECPInt:  NShTT=    1485 NPrTT=    8951 LenC2=    1390 LenP2D=    5599.
+ LDataN:  DoStor=T MaxTD1= 4 Len=   56
+ Initial guess from the checkpoint file:  "35.chk"
+ B after Tr=     0.000000    0.000000    0.000000
+         Rot=    1.000000    0.000000   -0.000000    0.000000 Ang=   0.00 deg.
+ Initial guess orbital symmetries:
+       Occupied  (T2) (T2) (T2) (A1) (T2) (T2) (T2) (A1) (T2) (T2)
+                 (T2) (A1) (T1) (T1) (T1) (E) (E) (T2) (T2) (T2)
+                 (A1) (T2) (T2) (T2) (A1) (T2) (T2) (T2) (A1) (T1)
+                 (T1) (T1) (E) (E) (T2) (T2) (T2) (A1) (T2) (T2)
+                 (T2) (E) (E) (T2) (T2) (T2) (T1) (T1) (T1) (T1)
+                 (T1) (T1) (E) (E) (T2) (T2) (T2) (A1) (T2) (T2)
+                 (T2) (A1) (T2) (T2) (T2) (E) (E) (T2) (T2) (T2)
+                 (T1) (T1) (T1)
+       Virtual   (A1) (T2) (T2) (T2) (A1) (T2) (T2) (T2) (T2) (T2)
+                 (T2) (E) (E) (T2) (T2) (T2) (E) (E) (T1) (T1)
+                 (T1) (A1) (T1) (T1) (T1) (T2) (T2) (T2) (E) (E)
+                 (T2) (T2) (T2) (A1) (T1) (T1) (T1) (T2) (T2) (T2)
+                 (A1) (T2) (T2) (T2) (E) (E) (T2) (T2) (T2) (E)
+                 (E) (T2) (T2) (T2) (T1) (T1) (T1) (E) (E) (T1)
+                 (T1) (T1) (T2) (T2) (T2) (T2) (T2) (T2) (A1)
+ Skip diagonalization as Alpha Fock matrix is already diagonal.
+ SCF Done:  E(RwB97XD) =  -10333.6326288     A.U. after    1 cycles
+            NFock=  1  Conv=0.32D-17     -V/T= 2.0011
+
+ **********************************************************************
+
+            Population analysis using the SCF Density.
+
+ **********************************************************************
+
+ Orbital symmetries:
+       Occupied  (T2) (T2) (T2) (A1) (T2) (T2) (T2) (A1) (T2) (T2)
+                 (T2) (A1) (T1) (T1) (T1) (E) (E) (T2) (T2) (T2)
+                 (A1) (T2) (T2) (T2) (A1) (T2) (T2) (T2) (A1) (T1)
+                 (T1) (T1) (E) (E) (T2) (T2) (T2) (A1) (T2) (T2)
+                 (T2) (E) (E) (T2) (T2) (T2) (T1) (T1) (T1) (T1)
+                 (T1) (T1) (E) (E) (T2) (T2) (T2) (A1) (T2) (T2)
+                 (T2) (A1) (T2) (T2) (T2) (E) (E) (T2) (T2) (T2)
+                 (T1) (T1) (T1)
+       Virtual   (A1) (T2) (T2) (T2) (A1) (T2) (T2) (T2) (T2) (T2)
+                 (T2) (E) (E) (T2) (T2) (T2) (E) (E) (T1) (T1)
+                 (T1) (A1) (T1) (T1) (T1) (T2) (T2) (T2) (E) (E)
+                 (T2) (T2) (T2) (A1) (T1) (T1) (T1) (T2) (T2) (T2)
+                 (A1) (T2) (T2) (T2) (E) (E) (T2) (T2) (T2) (E)
+                 (E) (T2) (T2) (T2) (T1) (T1) (T1) (E) (E) (T1)
+                 (T1) (T1) (T2) (T2) (T2) (T2) (T2) (T2) (A1)
+ The electronic state is 1-A1.
+ Alpha  occ. eigenvalues -- -483.09005-483.09005-483.09005-483.09001 -62.67234
+ Alpha  occ. eigenvalues --  -62.67234 -62.67234 -62.67232 -56.48052 -56.48052
+ Alpha  occ. eigenvalues --  -56.48052 -56.48049 -56.47613 -56.47613 -56.47613
+ Alpha  occ. eigenvalues --  -56.47611 -56.47611 -56.47611 -56.47611 -56.47611
+ Alpha  occ. eigenvalues --  -10.50623  -8.84201  -8.84201  -8.84201  -8.84198
+ Alpha  occ. eigenvalues --   -6.66914  -6.66914  -6.66914  -6.66914  -6.65332
+ Alpha  occ. eigenvalues --   -6.65332  -6.65332  -6.65332  -6.65332  -6.65331
+ Alpha  occ. eigenvalues --   -6.65331  -6.65331  -2.77247  -2.77245  -2.77245
+ Alpha  occ. eigenvalues --   -2.77245  -2.76802  -2.76802  -2.76802  -2.76802
+ Alpha  occ. eigenvalues --   -2.76802  -2.76800  -2.76800  -2.76800  -2.75539
+ Alpha  occ. eigenvalues --   -2.75539  -2.75539  -2.75539  -2.75539  -2.75539
+ Alpha  occ. eigenvalues --   -2.75539  -2.75539  -1.01407  -0.89587  -0.89587
+ Alpha  occ. eigenvalues --   -0.89587  -0.69950  -0.55000  -0.55000  -0.55000
+ Alpha  occ. eigenvalues --   -0.42685  -0.42685  -0.39877  -0.39877  -0.39877
+ Alpha  occ. eigenvalues --   -0.36849  -0.36849  -0.36849
+ Alpha virt. eigenvalues --   -0.01966   0.04209   0.04209   0.04209   0.28590
+ Alpha virt. eigenvalues --    0.39399   0.39399   0.39399   0.44722   0.44722
+ Alpha virt. eigenvalues --    0.44722   0.46163   0.46163   0.55534   0.55534
+ Alpha virt. eigenvalues --    0.55534   0.58014   0.58014   0.58885   0.58885
+ Alpha virt. eigenvalues --    0.58885   0.60238   0.60717   0.60717   0.60717
+ Alpha virt. eigenvalues --    0.62430   0.62430   0.62430   0.71199   0.71199
+ Alpha virt. eigenvalues --    0.71557   0.71557   0.71557   0.81859   0.87687
+ Alpha virt. eigenvalues --    0.87687   0.87687   1.03226   1.03226   1.03226
+ Alpha virt. eigenvalues --    1.09845   1.15162   1.15162   1.15162   1.78172
+ Alpha virt. eigenvalues --    1.78172   2.08525   2.08525   2.08525   3.46553
+ Alpha virt. eigenvalues --    3.46553   3.48355   3.48355   3.48355   3.50290
+ Alpha virt. eigenvalues --    3.50290   3.50290   3.52881   3.52881   3.59942
+ Alpha virt. eigenvalues --    3.59942   3.59942   3.69037   3.69037   3.69037
+ Alpha virt. eigenvalues --    3.86259   3.86259   3.86259   3.88399
+          Condensed to atoms (all electrons):
+ Mulliken charges:
+               1
+     1  C   -0.306209
+     2  Br   0.076552
+     3  Br   0.076552
+     4  Br   0.076552
+     5  Br   0.076552
+ Sum of Mulliken charges =   0.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+               1
+     1  C   -0.306209
+     2  Br   0.076552
+     3  Br   0.076552
+     4  Br   0.076552
+     5  Br   0.076552
+ Electronic spatial extent (au):  <R**2>=           2047.3019
+ Charge=             -0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=             -0.0000    Y=             -0.0000    Z=             -0.0000  Tot=              0.0000
+ Evaluate density.
+ Using the total density.
+ Monte-Carlo method of calculating molar volume:
+ based on  0.001 e/bohr**3 density envelope.
+ Number of points per bohr**3 =  100 CutOff= 1.00D-04
+ Using the SCF density.
+ There are      2376 points.  Will hold      2376 in memory.
+ LenV=  1048175973 MDV=  1048576000.
+ Box volume =13424.810 fraction occupied=0.084
+ Integrated density= 1.3727724360844363D+02 error=-8.7227563915563735D+00
+ Molar volume = 1130.035 bohr**3/mol (100.843 cm**3/mol)
+ Recommended a0 for SCRF calculation =  4.26 angstrom (  8.06 bohr)
+ 1\1\GINC-C259\SP\RwB97XD\def2SVPP\C1Br4\PETERCHAO1\29-Sep-2022\0\\#T w
+ B97XD//def2svpp Volume=tight Geom=AllCheckpoint Guess=Read\\Monomer\\0
+ ,1\C\Br,1,1.9378275056\Br,1,1.9378275056,2,109.47122063\Br,1,1.9378275
+ 056,2,109.47122063,3,120.,0\Br,1,1.9378275056,2,109.47122063,3,-120.,0
+ \\Version=ES64L-G16RevB.01\State=1-A1\HF=-10333.6326288\RMSD=3.225e-18
+ \Dipole=0.,0.,0.\Quadrupole=0.,0.,0.,0.,0.,0.\PG=TD [O(C1),4C3(Br1)]\\
+ @
+
+
+ HOW IS IT THAT THE SKY FEEDS THE STARS?
+
+                           -- LUCRETIUS
+ File lengths (MBytes):  RWF=     11 Int=      0 D2E=      0 Chk=      3 Scr=      1
+ Normal termination of Gaussian 16 at Thu Sep 29 10:49:58 2022.

@@ -1,0 +1,16 @@
+%nprocshared=4
+%mem=8000mb
+%chk=0.chk
+%mem=8000mb
+#T wB97XD/def2svpp opt=tight freq int(grid=ultrafine) scf=(verytight,qc)
+
+comment
+
+1 2
+C        0.000003   -0.000001    0.000000
+H       -0.332295   -1.047853   -0.076003
+H       -0.565310    0.507627    0.798082
+H       -0.178145    0.512309   -0.959163
+H        1.075735    0.027921    0.237083
+
+

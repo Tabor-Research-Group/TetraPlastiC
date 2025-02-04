@@ -1,0 +1,21 @@
+Setting up directories
+  at /scratch/user/peterchao1/peterchao1/6326778_1664223708000000367327168
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000002caa, rsp 00007ffe682b0168, rbp 00007ffe682b06e0
+   rsi 000000000000000b, rdi 0000000000002caa, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe682af560, r11 0000000000000202
+   r12 00007ffe682b0728, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b791a485630]
+  /lib64/libc.so.6(kill+0x7) [0x2b791a9ca657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l9999.exe() [0x454969]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l9999.exe() [0x46ba4a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l9999.exe() [0x49f42b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l9999.exe() [0x49261f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l9999.exe() [0x41067e]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l9999.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l9999.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b791a9b6555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l9999.exe() [0x4063a9]
+Cleaning up
