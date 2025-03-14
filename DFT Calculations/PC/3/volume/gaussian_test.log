@@ -1,0 +1,232 @@
+ Entering Gaussian System, Link 0=g16
+ Input=gaussian_test.inp
+ Output=gaussian_test.log
+ Initial command:
+ /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l1.exe "/scratch/user/peterchao1/peterchao1/6335713_1664458195000000187234631/Gau-198224.inp" -scrdir="/scratch/user/peterchao1/peterchao1/6335713_1664458195000000187234631/"
+ Entering Link 1 = /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l1.exe PID=    198225.
+  
+ Copyright (c) 1988-2017, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision B.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2016.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevB.01 20-Dec-2017
+                29-Sep-2022 
+ ******************************************
+ %chk=50.chk
+ %nprocshared=4
+ Will use up to    4 processors via shared memory.
+ %mem=8000mb
+ --------------------------------------------------------------
+ #T wB97XD//def2svpp Volume=tight Geom=AllCheckpoint Guess=Read
+ --------------------------------------------------------------
+ Structure from the checkpoint file:  "50.chk"
+ -------
+ Monomer
+ -------
+ Charge =  0 Multiplicity = 1
+ Redundant internal coordinates found in file.  (old form).
+ F,0,-0.8116416705,-0.600972942,0.8437936182
+ C,0,0.0000029402,0.0000071813,-0.000013962
+ F,0,0.3102356129,-0.8275328379,-0.9751193336
+ F,0,-0.594428045,1.0628245742,-0.4990012706
+ F,0,1.0958291623,0.3656780244,0.630342948
+ Recover connectivity data from disk.
+                           ----------------------------
+                           !    Current Parameters    !
+                           ! (Angstroms and Degrees)  !
+ --------------------------                            --------------------------
+ ! Name  Definition              Value                                          !
+ --------------------------------------------------------------------------------
+ ! R1    R(1,2)                  1.316                                          !
+ ! R2    R(2,3)                  1.316                                          !
+ ! R3    R(2,4)                  1.316                                          !
+ ! R4    R(2,5)                  1.316                                          !
+ ! A1    A(1,2,3)              109.4697                                         !
+ ! A2    A(1,2,4)              109.4713                                         !
+ ! A3    A(1,2,5)              109.4703                                         !
+ ! A4    A(3,2,4)              109.4736                                         !
+ ! A5    A(3,2,5)              109.4716                                         !
+ ! A6    A(4,2,5)              109.4708                                         !
+ ! D1    D(3,2,5,4)            120.0029                                         !
+ --------------------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  F    0.000000
+     2  C    1.316038   0.000000
+     3  F    2.149042   1.316016   0.000000
+     4  F    2.149070   1.316023   2.149083   0.000000
+     5  F    2.149051   1.316017   2.149051   2.149047   0.000000
+ Framework group  C1[X(CF4)]
+ Deg. of freedom     9
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          9           0        0.551662    1.097107   -0.473224
+      2          6           0       -0.000007   -0.000009    0.000013
+      3          9           0        0.834182   -0.586928    0.831610
+      4          9           0       -1.110551    0.306576    0.636106
+      5          9           0       -0.275288   -0.816749   -0.994501
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):           5.7598478           5.7597235           5.7596997
+    70 basis functions,   125 primitive gaussians,    75 cartesian basis functions
+    21 alpha electrons       21 beta electrons
+       nuclear repulsion energy       206.5254333490 Hartrees.
+ NAtoms=    5 NActive=    5 NUniq=    5 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Nuclear repulsion after empirical dispersion term =      206.5250984287 Hartrees.
+   1 Symmetry operations used in ECPInt.
+ ECPInt:  NShTT=     465 NPrTT=    1895 LenC2=     460 LenP2D=    1535.
+ LDataN:  DoStor=T MaxTD1= 4 Len=   56
+ Initial guess from the checkpoint file:  "50.chk"
+ B after Tr=    -0.000000   -0.000000   -0.000000
+         Rot=    1.000000    0.000000    0.000000   -0.000000 Ang=   0.00 deg.
+ Skip diagonalization as Alpha Fock matrix is already diagonal.
+ SCF Done:  E(RwB97XD) =  -437.037901293     A.U. after    1 cycles
+            NFock=  1  Conv=0.00D+00     -V/T= 2.0054
+
+ **********************************************************************
+
+            Population analysis using the SCF Density.
+
+ **********************************************************************
+
+ Orbital symmetries:
+       Occupied  (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A)
+                 (A) (A) (A) (A) (A) (A) (A) (A) (A)
+       Virtual   (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A)
+                 (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A)
+                 (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A)
+                 (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A) (A)
+                 (A)
+ The electronic state is 1-A.
+ Alpha  occ. eigenvalues --  -24.88121 -24.88114 -24.88114 -24.88113 -10.64078
+ Alpha  occ. eigenvalues --   -1.47945  -1.35590  -1.35590  -1.35589  -0.82626
+ Alpha  occ. eigenvalues --   -0.74270  -0.74270  -0.74269  -0.60583  -0.60582
+ Alpha  occ. eigenvalues --   -0.57709  -0.57709  -0.57709  -0.53217  -0.53217
+ Alpha  occ. eigenvalues --   -0.53217
+ Alpha virt. eigenvalues --    0.26683   0.27705   0.27706   0.27708   0.39981
+ Alpha virt. eigenvalues --    0.51509   0.51510   0.51512   1.08940   1.08940
+ Alpha virt. eigenvalues --    1.15134   1.15135   1.15135   1.17742   1.38474
+ Alpha virt. eigenvalues --    1.38476   1.38476   1.50433   1.50434   1.50434
+ Alpha virt. eigenvalues --    1.60031   1.60032   1.80571   1.80573   1.80575
+ Alpha virt. eigenvalues --    1.94403   2.02805   2.02806   2.02808   3.05387
+ Alpha virt. eigenvalues --    3.05388   3.05388   3.08821   3.08821   3.09660
+ Alpha virt. eigenvalues --    3.09661   3.09661   3.10579   3.10580   3.10580
+ Alpha virt. eigenvalues --    3.40692   3.40693   3.40694   3.70652   3.71685
+ Alpha virt. eigenvalues --    3.71686   3.93805   3.93807   3.93807
+          Condensed to atoms (all electrons):
+ Mulliken charges:
+               1
+     1  F   -0.150933
+     2  C    0.603637
+     3  F   -0.150894
+     4  F   -0.150902
+     5  F   -0.150909
+ Sum of Mulliken charges =   0.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+               1
+     1  F   -0.150933
+     2  C    0.603637
+     3  F   -0.150894
+     4  F   -0.150902
+     5  F   -0.150909
+ Electronic spatial extent (au):  <R**2>=            278.6699
+ Charge=              0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=             -0.0001    Y=             -0.0001    Z=              0.0001  Tot=              0.0001
+ Evaluate density.
+ Using the total density.
+ Monte-Carlo method of calculating molar volume:
+ based on  0.001 e/bohr**3 density envelope.
+ Number of points per bohr**3 =  100 CutOff= 1.00D-04
+ Using the SCF density.
+ There are      1315 points.  Will hold      1315 in memory.
+ LenV=  1048466780 MDV=  1048576000.
+ Box volume = 2278.077 fraction occupied=0.164
+ Integrated density= 2.8167812191586044D+01 error=-1.3832187808413956D+01
+ Molar volume =  374.194 bohr**3/mol ( 33.393 cm**3/mol)
+ Recommended a0 for SCRF calculation =  3.10 angstrom (  5.87 bohr)
+ 1\1\GINC-C004\SP\RwB97XD\def2SVPP\C1F4\PETERCHAO1\29-Sep-2022\0\\#T wB
+ 97XD//def2svpp Volume=tight Geom=AllCheckpoint Guess=Read\\Monomer\\0,
+ 1\F,0,-0.8116416705,-0.600972942,0.8437936182\C,0,0.0000029402,0.00000
+ 71813,-0.000013962\F,0,0.3102356129,-0.8275328379,-0.9751193336\F,0,-0
+ .594428045,1.0628245742,-0.4990012706\F,0,1.0958291623,0.3656780244,0.
+ 630342948\\Version=ES64L-G16RevB.01\State=1-A\HF=-437.0379013\RMSD=0.0
+ 00e+00\Dipole=0.000024,0.0000285,-0.0000451\Quadrupole=-0.0000394,-0.0
+ 000023,0.0000416,-0.0000611,0.0000389,0.000056\PG=C01 [X(C1F4)]\\@
+
+
+ NOTHING WILL BE ATTEMPTED IF ALL POSSIBLE OBJECTIONS
+ MUST FIRST BE OVERCOME.
+
+                               -- THE GOLDEN PRINCIPLE,
+                    PAUL DICKSON'S "THE OFFICIAL RULES"
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      2 Scr=      1
+ Normal termination of Gaussian 16 at Thu Sep 29 08:34:32 2022.
