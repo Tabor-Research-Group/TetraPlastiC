@@ -1,0 +1,2083 @@
+Setting up directories
+  at /scratch/user/peterchao1/peterchao1/6931660_1675363450000000740527849
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001f71d, rsp 00007ffca32d3db8, rbp 00007ffca32d4330
+   rsi 000000000000000b, rdi 000000000001f71d, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffca32d31a0, r11 0000000000000206
+   r12 00007ffca32d4378, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b17dfe91630]
+  /lib64/libc.so.6(kill+0x7) [0x2b17e03d6657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b17e03c2555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001f7ce, rsp 00007ffc32f0dc88, rbp 00007ffc32f0e200
+   rsi 000000000000000b, rdi 000000000001f7ce, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc32f0d060, r11 0000000000000206
+   r12 00007ffc32f0e248, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ab237164630]
+  /lib64/libc.so.6(kill+0x7) [0x2ab2376a9657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ab237695555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001f880, rsp 00007ffd84d7a178, rbp 00007ffd84d7a6f0
+   rsi 000000000000000b, rdi 000000000001f880, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd84d79560, r11 0000000000000206
+   r12 00007ffd84d7a738, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b6629387630]
+  /lib64/libc.so.6(kill+0x7) [0x2b66298cc657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b66298b8555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001f91c, rsp 00007ffd25f03da8, rbp 00007ffd25f04320
+   rsi 000000000000000b, rdi 000000000001f91c, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd25f031a0, r11 0000000000000202
+   r12 00007ffd25f04368, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ac02f85d630]
+  /lib64/libc.so.6(kill+0x7) [0x2ac02fda2657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ac02fd8e555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001f9e1, rsp 00007ffd147b5ac8, rbp 00007ffd147b6040
+   rsi 000000000000000b, rdi 000000000001f9e1, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd147b4ea0, r11 0000000000000202
+   r12 00007ffd147b6088, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b1ed3fa9630]
+  /lib64/libc.so.6(kill+0x7) [0x2b1ed44ee657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b1ed44da555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001faab, rsp 00007fffcc2205b8, rbp 00007fffcc220b30
+   rsi 000000000000000b, rdi 000000000001faab, r8  0000000000000020
+   r9  0000000000000401, r10 00007fffcc21f9a0, r11 0000000000000206
+   r12 00007fffcc220b78, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b416232f630]
+  /lib64/libc.so.6(kill+0x7) [0x2b4162874657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b4162860555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001fb5e, rsp 00007fffbfc0e278, rbp 00007fffbfc0e7f0
+   rsi 000000000000000b, rdi 000000000001fb5e, r8  0000000000000020
+   r9  0000000000000401, r10 00007fffbfc0d660, r11 0000000000000206
+   r12 00007fffbfc0e838, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2af7914bd630]
+  /lib64/libc.so.6(kill+0x7) [0x2af791a02657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2af7919ee555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001fc10, rsp 00007fff24fcaaa8, rbp 00007fff24fcb020
+   rsi 000000000000000b, rdi 000000000001fc10, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff24fc9ea0, r11 0000000000000202
+   r12 00007fff24fcb068, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2af7bd963630]
+  /lib64/libc.so.6(kill+0x7) [0x2af7bdea8657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2af7bde94555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001fce0, rsp 00007ffdd9b12098, rbp 00007ffdd9b12610
+   rsi 000000000000000b, rdi 000000000001fce0, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffdd9b114a0, r11 0000000000000202
+   r12 00007ffdd9b12658, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b86056b5630]
+  /lib64/libc.so.6(kill+0x7) [0x2b8605bfa657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b8605be6555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001fd9d, rsp 00007ffd376b6c78, rbp 00007ffd376b71f0
+   rsi 000000000000000b, rdi 000000000001fd9d, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd376b6060, r11 0000000000000206
+   r12 00007ffd376b7238, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2aca82851630]
+  /lib64/libc.so.6(kill+0x7) [0x2aca82d96657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2aca82d82555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001fe5b, rsp 00007ffc51492048, rbp 00007ffc514925c0
+   rsi 000000000000000b, rdi 000000000001fe5b, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc51491420, r11 0000000000000206
+   r12 00007ffc51492608, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b8a84a50630]
+  /lib64/libc.so.6(kill+0x7) [0x2b8a84f95657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b8a84f81555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001ff0f, rsp 00007fff615ecd38, rbp 00007fff615ed2b0
+   rsi 000000000000000b, rdi 000000000001ff0f, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff615ec120, r11 0000000000000202
+   r12 00007fff615ed2f8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2aad1aa7a630]
+  /lib64/libc.so.6(kill+0x7) [0x2aad1afbf657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2aad1afab555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000001ffc0, rsp 00007ffff0ff1018, rbp 00007ffff0ff1590
+   rsi 000000000000000b, rdi 000000000001ffc0, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffff0ff0420, r11 0000000000000206
+   r12 00007ffff0ff15d8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ad9d670d630]
+  /lib64/libc.so.6(kill+0x7) [0x2ad9d6c52657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ad9d6c3e555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000002007f, rsp 00007ffdef13ea78, rbp 00007ffdef13eff0
+   rsi 000000000000000b, rdi 000000000002007f, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffdef13de60, r11 0000000000000206
+   r12 00007ffdef13f038, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b4bc7999630]
+  /lib64/libc.so.6(kill+0x7) [0x2b4bc7ede657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b4bc7eca555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000002013e, rsp 00007ffe21290eb8, rbp 00007ffe21291430
+   rsi 000000000000000b, rdi 000000000002013e, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe212902a0, r11 0000000000000206
+   r12 00007ffe21291478, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ac3527ca630]
+  /lib64/libc.so.6(kill+0x7) [0x2ac352d0f657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ac352cfb555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000201e5, rsp 00007ffe7edc18c8, rbp 00007ffe7edc1e40
+   rsi 000000000000000b, rdi 00000000000201e5, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe7edc0ca0, r11 0000000000000202
+   r12 00007ffe7edc1e88, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2af0d97f2630]
+  /lib64/libc.so.6(kill+0x7) [0x2af0d9d37657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2af0d9d23555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020287, rsp 00007fffc8147d28, rbp 00007fffc81482a0
+   rsi 000000000000000b, rdi 0000000000020287, r8  0000000000000020
+   r9  0000000000000401, r10 00007fffc8147120, r11 0000000000000206
+   r12 00007fffc81482e8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ba7bee8f630]
+  /lib64/libc.so.6(kill+0x7) [0x2ba7bf3d4657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ba7bf3c0555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020371, rsp 00007ffd0ce5dae8, rbp 00007ffd0ce5e060
+   rsi 000000000000000b, rdi 0000000000020371, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd0ce5cee0, r11 0000000000000206
+   r12 00007ffd0ce5e0a8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b8463f16630]
+  /lib64/libc.so.6(kill+0x7) [0x2b846445b657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b8464447555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020424, rsp 00007ffd007a31f8, rbp 00007ffd007a3770
+   rsi 000000000000000b, rdi 0000000000020424, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd007a25e0, r11 0000000000000202
+   r12 00007ffd007a37b8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b4b2a5e2630]
+  /lib64/libc.so.6(kill+0x7) [0x2b4b2ab27657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b4b2ab13555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000204da, rsp 00007ffe55ebb0d8, rbp 00007ffe55ebb650
+   rsi 000000000000000b, rdi 00000000000204da, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe55eba4e0, r11 0000000000000206
+   r12 00007ffe55ebb698, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b69afa62630]
+  /lib64/libc.so.6(kill+0x7) [0x2b69affa7657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b69aff93555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000205b3, rsp 00007fff3e1cd778, rbp 00007fff3e1cdcf0
+   rsi 000000000000000b, rdi 00000000000205b3, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff3e1ccb60, r11 0000000000000206
+   r12 00007fff3e1cdd38, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b09d67e0630]
+  /lib64/libc.so.6(kill+0x7) [0x2b09d6d25657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b09d6d11555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020665, rsp 00007fff4f18f498, rbp 00007fff4f18fa10
+   rsi 000000000000000b, rdi 0000000000020665, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff4f18e8a0, r11 0000000000000202
+   r12 00007fff4f18fa58, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b521f3ab630]
+  /lib64/libc.so.6(kill+0x7) [0x2b521f8f0657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b521f8dc555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020734, rsp 00007fff50081268, rbp 00007fff500817e0
+   rsi 000000000000000b, rdi 0000000000020734, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff50080660, r11 0000000000000202
+   r12 00007fff50081828, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b4a82e24630]
+  /lib64/libc.so.6(kill+0x7) [0x2b4a83369657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b4a83355555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000207ef, rsp 00007fff5a18f068, rbp 00007fff5a18f5e0
+   rsi 000000000000000b, rdi 00000000000207ef, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff5a18e460, r11 0000000000000202
+   r12 00007fff5a18f628, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ab184116630]
+  /lib64/libc.so.6(kill+0x7) [0x2ab18465b657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ab184647555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000002088d, rsp 00007ffe62c305c8, rbp 00007ffe62c30b40
+   rsi 000000000000000b, rdi 000000000002088d, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe62c2f9a0, r11 0000000000000202
+   r12 00007ffe62c30b88, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ae6a5dfe630]
+  /lib64/libc.so.6(kill+0x7) [0x2ae6a6343657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ae6a632f555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020945, rsp 00007ffe7a24c358, rbp 00007ffe7a24c8d0
+   rsi 000000000000000b, rdi 0000000000020945, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe7a24b760, r11 0000000000000202
+   r12 00007ffe7a24c918, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b5d3f065630]
+  /lib64/libc.so.6(kill+0x7) [0x2b5d3f5aa657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b5d3f596555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000209f8, rsp 00007fffa3c76868, rbp 00007fffa3c76de0
+   rsi 000000000000000b, rdi 00000000000209f8, r8  0000000000000020
+   r9  0000000000000401, r10 00007fffa3c75c60, r11 0000000000000202
+   r12 00007fffa3c76e28, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b96fc6ab630]
+  /lib64/libc.so.6(kill+0x7) [0x2b96fcbf0657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b96fcbdc555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020abe, rsp 00007ffce3893888, rbp 00007ffce3893e00
+   rsi 000000000000000b, rdi 0000000000020abe, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffce3892c60, r11 0000000000000206
+   r12 00007ffce3893e48, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2abc370c1630]
+  /lib64/libc.so.6(kill+0x7) [0x2abc37606657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2abc375f2555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020b65, rsp 00007ffe280f0358, rbp 00007ffe280f08d0
+   rsi 000000000000000b, rdi 0000000000020b65, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe280ef760, r11 0000000000000202
+   r12 00007ffe280f0918, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b9f23cdb630]
+  /lib64/libc.so.6(kill+0x7) [0x2b9f24220657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b9f2420c555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020c20, rsp 00007ffecc263028, rbp 00007ffecc2635a0
+   rsi 000000000000000b, rdi 0000000000020c20, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffecc262420, r11 0000000000000206
+   r12 00007ffecc2635e8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ab9b0119630]
+  /lib64/libc.so.6(kill+0x7) [0x2ab9b065e657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ab9b064a555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020d0a, rsp 00007ffe3c39b848, rbp 00007ffe3c39bdc0
+   rsi 000000000000000b, rdi 0000000000020d0a, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe3c39ac20, r11 0000000000000206
+   r12 00007ffe3c39be08, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b2ca7b25630]
+  /lib64/libc.so.6(kill+0x7) [0x2b2ca806a657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b2ca8056555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020de4, rsp 00007fff94a00a68, rbp 00007fff94a00fe0
+   rsi 000000000000000b, rdi 0000000000020de4, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff949ffe60, r11 0000000000000202
+   r12 00007fff94a01028, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ad195231630]
+  /lib64/libc.so.6(kill+0x7) [0x2ad195776657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ad195762555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020e91, rsp 00007ffd27a9daf8, rbp 00007ffd27a9e070
+   rsi 000000000000000b, rdi 0000000000020e91, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd27a9cee0, r11 0000000000000202
+   r12 00007ffd27a9e0b8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b91482bb630]
+  /lib64/libc.so.6(kill+0x7) [0x2b9148800657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b91487ec555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000020f42, rsp 00007fffcd82b198, rbp 00007fffcd82b710
+   rsi 000000000000000b, rdi 0000000000020f42, r8  0000000000000020
+   r9  0000000000000401, r10 00007fffcd82a5a0, r11 0000000000000202
+   r12 00007fffcd82b758, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b87a50da630]
+  /lib64/libc.so.6(kill+0x7) [0x2b87a561f657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b87a560b555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021007, rsp 00007ffd27130648, rbp 00007ffd27130bc0
+   rsi 000000000000000b, rdi 0000000000021007, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd2712fa20, r11 0000000000000206
+   r12 00007ffd27130c08, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ac0bd4d9630]
+  /lib64/libc.so.6(kill+0x7) [0x2ac0bda1e657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ac0bda0a555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000210cd, rsp 00007ffef63707e8, rbp 00007ffef6370d60
+   rsi 000000000000000b, rdi 00000000000210cd, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffef636fbe0, r11 0000000000000206
+   r12 00007ffef6370da8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b6749c24630]
+  /lib64/libc.so.6(kill+0x7) [0x2b674a169657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b674a155555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021187, rsp 00007fff52dde9e8, rbp 00007fff52ddef60
+   rsi 000000000000000b, rdi 0000000000021187, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff52dddde0, r11 0000000000000206
+   r12 00007fff52ddefa8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b2397885630]
+  /lib64/libc.so.6(kill+0x7) [0x2b2397dca657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b2397db6555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000002124e, rsp 00007ffd4987b898, rbp 00007ffd4987be10
+   rsi 000000000000000b, rdi 000000000002124e, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd4987aca0, r11 0000000000000202
+   r12 00007ffd4987be58, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b71f1f31630]
+  /lib64/libc.so.6(kill+0x7) [0x2b71f2476657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b71f2462555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021312, rsp 00007ffdc91d9a98, rbp 00007ffdc91da010
+   rsi 000000000000000b, rdi 0000000000021312, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffdc91d8ea0, r11 0000000000000202
+   r12 00007ffdc91da058, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ac4f8bc3630]
+  /lib64/libc.so.6(kill+0x7) [0x2ac4f9108657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ac4f90f4555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000213dc, rsp 00007ffc380d0638, rbp 00007ffc380d0bb0
+   rsi 000000000000000b, rdi 00000000000213dc, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc380cfa20, r11 0000000000000202
+   r12 00007ffc380d0bf8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b9750278630]
+  /lib64/libc.so.6(kill+0x7) [0x2b97507bd657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b97507a9555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000002149a, rsp 00007ffde14c19b8, rbp 00007ffde14c1f30
+   rsi 000000000000000b, rdi 000000000002149a, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffde14c0da0, r11 0000000000000206
+   r12 00007ffde14c1f78, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b547350f630]
+  /lib64/libc.so.6(kill+0x7) [0x2b5473a54657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b5473a40555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021573, rsp 00007ffe2f884058, rbp 00007ffe2f8845d0
+   rsi 000000000000000b, rdi 0000000000021573, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe2f883460, r11 0000000000000202
+   r12 00007ffe2f884618, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b71dc165630]
+  /lib64/libc.so.6(kill+0x7) [0x2b71dc6aa657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b71dc696555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021625, rsp 00007ffeb3670138, rbp 00007ffeb36706b0
+   rsi 000000000000000b, rdi 0000000000021625, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffeb366f520, r11 0000000000000202
+   r12 00007ffeb36706f8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b502b579630]
+  /lib64/libc.so.6(kill+0x7) [0x2b502babe657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b502baaa555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000216f8, rsp 00007ffdcd2a44a8, rbp 00007ffdcd2a4a20
+   rsi 000000000000000b, rdi 00000000000216f8, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffdcd2a38a0, r11 0000000000000202
+   r12 00007ffdcd2a4a68, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b3442a6a630]
+  /lib64/libc.so.6(kill+0x7) [0x2b3442faf657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b3442f9b555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000217ac, rsp 00007ffef4144de8, rbp 00007ffef4145360
+   rsi 000000000000000b, rdi 00000000000217ac, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffef41441e0, r11 0000000000000206
+   r12 00007ffef41453a8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b89fe23b630]
+  /lib64/libc.so.6(kill+0x7) [0x2b89fe780657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b89fe76c555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000218dc, rsp 00007ffe955961d8, rbp 00007ffe95596750
+   rsi 000000000000000b, rdi 00000000000218dc, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe955955e0, r11 0000000000000206
+   r12 00007ffe95596798, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2aad391e5630]
+  /lib64/libc.so.6(kill+0x7) [0x2aad3972a657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2aad39716555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021997, rsp 00007ffc559e0488, rbp 00007ffc559e0a00
+   rsi 000000000000000b, rdi 0000000000021997, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc559df860, r11 0000000000000206
+   r12 00007ffc559e0a48, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b74827ed630]
+  /lib64/libc.so.6(kill+0x7) [0x2b7482d32657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b7482d1e555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021aa3, rsp 00007ffcbaf70268, rbp 00007ffcbaf707e0
+   rsi 000000000000000b, rdi 0000000000021aa3, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffcbaf6f660, r11 0000000000000202
+   r12 00007ffcbaf70828, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2af2575d1630]
+  /lib64/libc.so.6(kill+0x7) [0x2af257b16657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2af257b02555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021b5e, rsp 00007ffcbdb8f568, rbp 00007ffcbdb8fae0
+   rsi 000000000000000b, rdi 0000000000021b5e, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffcbdb8e960, r11 0000000000000202
+   r12 00007ffcbdb8fb28, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b9ff4245630]
+  /lib64/libc.so.6(kill+0x7) [0x2b9ff478a657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b9ff4776555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021c31, rsp 00007ffc869a99e8, rbp 00007ffc869a9f60
+   rsi 000000000000000b, rdi 0000000000021c31, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc869a8de0, r11 0000000000000206
+   r12 00007ffc869a9fa8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b234029c630]
+  /lib64/libc.so.6(kill+0x7) [0x2b23407e1657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b23407cd555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021d0f, rsp 00007ffe85d01d88, rbp 00007ffe85d02300
+   rsi 000000000000000b, rdi 0000000000021d0f, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe85d01160, r11 0000000000000206
+   r12 00007ffe85d02348, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2aded4778630]
+  /lib64/libc.so.6(kill+0x7) [0x2aded4cbd657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2aded4ca9555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021dc4, rsp 00007fff04b62248, rbp 00007fff04b627c0
+   rsi 000000000000000b, rdi 0000000000021dc4, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff04b61620, r11 0000000000000206
+   r12 00007fff04b62808, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ae2b365e630]
+  /lib64/libc.so.6(kill+0x7) [0x2ae2b3ba3657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ae2b3b8f555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021ebb, rsp 00007ffff8e15878, rbp 00007ffff8e15df0
+   rsi 000000000000000b, rdi 0000000000021ebb, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffff8e14c60, r11 0000000000000206
+   r12 00007ffff8e15e38, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b5638cf5630]
+  /lib64/libc.so.6(kill+0x7) [0x2b563923a657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b5639226555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000021f79, rsp 00007ffe28ecb0c8, rbp 00007ffe28ecb640
+   rsi 000000000000000b, rdi 0000000000021f79, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe28eca4a0, r11 0000000000000202
+   r12 00007ffe28ecb688, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b5a03d9d630]
+  /lib64/libc.so.6(kill+0x7) [0x2b5a042e2657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b5a042ce555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000002201c, rsp 00007fff2411c5a8, rbp 00007fff2411cb20
+   rsi 000000000000000b, rdi 000000000002201c, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff2411b9a0, r11 0000000000000202
+   r12 00007fff2411cb68, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b6dbc4cf630]
+  /lib64/libc.so.6(kill+0x7) [0x2b6dbca14657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b6dbca00555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000220e1, rsp 00007ffe7a4147c8, rbp 00007ffe7a414d40
+   rsi 000000000000000b, rdi 00000000000220e1, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe7a413ba0, r11 0000000000000202
+   r12 00007ffe7a414d88, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b56462fa630]
+  /lib64/libc.so.6(kill+0x7) [0x2b564683f657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b564682b555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022192, rsp 00007ffffb870a58, rbp 00007ffffb870fd0
+   rsi 000000000000000b, rdi 0000000000022192, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffffb86fe60, r11 0000000000000202
+   r12 00007ffffb871018, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b0709d1b630]
+  /lib64/libc.so.6(kill+0x7) [0x2b070a260657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b070a24c555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022238, rsp 00007fff18340e78, rbp 00007fff183413f0
+   rsi 000000000000000b, rdi 0000000000022238, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff18340260, r11 0000000000000206
+   r12 00007fff18341438, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ae7dbaa9630]
+  /lib64/libc.so.6(kill+0x7) [0x2ae7dbfee657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ae7dbfda555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000222e3, rsp 00007fff32f615c8, rbp 00007fff32f61b40
+   rsi 000000000000000b, rdi 00000000000222e3, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff32f609a0, r11 0000000000000202
+   r12 00007fff32f61b88, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b6aeda80630]
+  /lib64/libc.so.6(kill+0x7) [0x2b6aedfc5657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b6aedfb1555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000002239e, rsp 00007fff07f901e8, rbp 00007fff07f90760
+   rsi 000000000000000b, rdi 000000000002239e, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff07f8f5e0, r11 0000000000000206
+   r12 00007fff07f907a8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ae50a364630]
+  /lib64/libc.so.6(kill+0x7) [0x2ae50a8a9657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ae50a895555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022464, rsp 00007ffc40166468, rbp 00007ffc401669e0
+   rsi 000000000000000b, rdi 0000000000022464, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc40165860, r11 0000000000000202
+   r12 00007ffc40166a28, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b1fed02e630]
+  /lib64/libc.so.6(kill+0x7) [0x2b1fed573657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b1fed55f555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022554, rsp 00007ffdfe54ac18, rbp 00007ffdfe54b190
+   rsi 000000000000000b, rdi 0000000000022554, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffdfe54a020, r11 0000000000000206
+   r12 00007ffdfe54b1d8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b3706bcc630]
+  /lib64/libc.so.6(kill+0x7) [0x2b3707111657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b37070fd555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000002260f, rsp 00007fffa0106b88, rbp 00007fffa0107100
+   rsi 000000000000000b, rdi 000000000002260f, r8  0000000000000020
+   r9  0000000000000401, r10 00007fffa0105f60, r11 0000000000000206
+   r12 00007fffa0107148, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ace13ff3630]
+  /lib64/libc.so.6(kill+0x7) [0x2ace14538657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ace14524555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000226c3, rsp 00007ffe5e2a28b8, rbp 00007ffe5e2a2e30
+   rsi 000000000000000b, rdi 00000000000226c3, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe5e2a1ca0, r11 0000000000000206
+   r12 00007ffe5e2a2e78, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b030a8fb630]
+  /lib64/libc.so.6(kill+0x7) [0x2b030ae40657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b030ae2c555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022772, rsp 00007ffc8ababfa8, rbp 00007ffc8abac520
+   rsi 000000000000000b, rdi 0000000000022772, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc8abab3a0, r11 0000000000000202
+   r12 00007ffc8abac568, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2abec77a1630]
+  /lib64/libc.so.6(kill+0x7) [0x2abec7ce6657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2abec7cd2555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022823, rsp 00007ffd2b821b48, rbp 00007ffd2b8220c0
+   rsi 000000000000000b, rdi 0000000000022823, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd2b820f20, r11 0000000000000206
+   r12 00007ffd2b822108, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b16c9e23630]
+  /lib64/libc.so.6(kill+0x7) [0x2b16ca368657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b16ca354555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000228e8, rsp 00007fffd5c5d088, rbp 00007fffd5c5d600
+   rsi 000000000000000b, rdi 00000000000228e8, r8  0000000000000020
+   r9  0000000000000401, r10 00007fffd5c5c460, r11 0000000000000206
+   r12 00007fffd5c5d648, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ba7725db630]
+  /lib64/libc.so.6(kill+0x7) [0x2ba772b20657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ba772b0c555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000229ae, rsp 00007ffc67090f08, rbp 00007ffc67091480
+   rsi 000000000000000b, rdi 00000000000229ae, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc670902e0, r11 0000000000000202
+   r12 00007ffc670914c8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ad50117c630]
+  /lib64/libc.so.6(kill+0x7) [0x2ad5016c1657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ad5016ad555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022a4b, rsp 00007ffefba879b8, rbp 00007ffefba87f30
+   rsi 000000000000000b, rdi 0000000000022a4b, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffefba86da0, r11 0000000000000206
+   r12 00007ffefba87f78, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ab68f485630]
+  /lib64/libc.so.6(kill+0x7) [0x2ab68f9ca657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ab68f9b6555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022b15, rsp 00007ffead7f3908, rbp 00007ffead7f3e80
+   rsi 000000000000000b, rdi 0000000000022b15, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffead7f2ce0, r11 0000000000000202
+   r12 00007ffead7f3ec8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b7ab5a94630]
+  /lib64/libc.so.6(kill+0x7) [0x2b7ab5fd9657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b7ab5fc5555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022bd9, rsp 00007fff058ff938, rbp 00007fff058ffeb0
+   rsi 000000000000000b, rdi 0000000000022bd9, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff058fed20, r11 0000000000000202
+   r12 00007fff058ffef8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b4628251630]
+  /lib64/libc.so.6(kill+0x7) [0x2b4628796657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b4628782555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022ca7, rsp 00007ffe9a595328, rbp 00007ffe9a5958a0
+   rsi 000000000000000b, rdi 0000000000022ca7, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe9a594720, r11 0000000000000206
+   r12 00007ffe9a5958e8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b56784be630]
+  /lib64/libc.so.6(kill+0x7) [0x2b5678a03657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b56789ef555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022d60, rsp 00007ffda123a358, rbp 00007ffda123a8d0
+   rsi 000000000000000b, rdi 0000000000022d60, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffda1239760, r11 0000000000000202
+   r12 00007ffda123a918, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2af1c524b630]
+  /lib64/libc.so.6(kill+0x7) [0x2af1c5790657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2af1c577c555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022e2f, rsp 00007ffe148ee7b8, rbp 00007ffe148eed30
+   rsi 000000000000000b, rdi 0000000000022e2f, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe148edba0, r11 0000000000000206
+   r12 00007ffe148eed78, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2acd523c8630]
+  /lib64/libc.so.6(kill+0x7) [0x2acd5290d657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2acd528f9555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022ef2, rsp 00007ffd26b9d488, rbp 00007ffd26b9da00
+   rsi 000000000000000b, rdi 0000000000022ef2, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd26b9c860, r11 0000000000000206
+   r12 00007ffd26b9da48, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b6658c7c630]
+  /lib64/libc.so.6(kill+0x7) [0x2b66591c1657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b66591ad555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000022fcb, rsp 00007fff1867a368, rbp 00007fff1867a8e0
+   rsi 000000000000000b, rdi 0000000000022fcb, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff18679760, r11 0000000000000202
+   r12 00007fff1867a928, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b3b00cbe630]
+  /lib64/libc.so.6(kill+0x7) [0x2b3b01203657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b3b011ef555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 000000000002309d, rsp 00007ffdf23ae808, rbp 00007ffdf23aed80
+   rsi 000000000000000b, rdi 000000000002309d, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffdf23adbe0, r11 0000000000000202
+   r12 00007ffdf23aedc8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2af77952c630]
+  /lib64/libc.so.6(kill+0x7) [0x2af779a71657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2af779a5d555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023151, rsp 00007ffee18bbbe8, rbp 00007ffee18bc160
+   rsi 000000000000000b, rdi 0000000000023151, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffee18bafe0, r11 0000000000000206
+   r12 00007ffee18bc1a8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ba38f4ec630]
+  /lib64/libc.so.6(kill+0x7) [0x2ba38fa31657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ba38fa1d555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023223, rsp 00007ffcfda3f768, rbp 00007ffcfda3fce0
+   rsi 000000000000000b, rdi 0000000000023223, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffcfda3eb60, r11 0000000000000202
+   r12 00007ffcfda3fd28, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ada7d4cf630]
+  /lib64/libc.so.6(kill+0x7) [0x2ada7da14657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ada7da00555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000232ca, rsp 00007ffc04f51458, rbp 00007ffc04f519d0
+   rsi 000000000000000b, rdi 00000000000232ca, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc04f50860, r11 0000000000000202
+   r12 00007ffc04f51a18, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2abf67ed4630]
+  /lib64/libc.so.6(kill+0x7) [0x2abf68419657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2abf68405555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023385, rsp 00007ffd6198d978, rbp 00007ffd6198def0
+   rsi 000000000000000b, rdi 0000000000023385, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd6198cd60, r11 0000000000000206
+   r12 00007ffd6198df38, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b18e2017630]
+  /lib64/libc.so.6(kill+0x7) [0x2b18e255c657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b18e2548555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023494, rsp 00007ffd43b6dd08, rbp 00007ffd43b6e280
+   rsi 000000000000000b, rdi 0000000000023494, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd43b6d0e0, r11 0000000000000202
+   r12 00007ffd43b6e2c8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b0807609630]
+  /lib64/libc.so.6(kill+0x7) [0x2b0807b4e657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b0807b3a555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023544, rsp 00007ffd93d06798, rbp 00007ffd93d06d10
+   rsi 000000000000000b, rdi 0000000000023544, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd93d05ba0, r11 0000000000000202
+   r12 00007ffd93d06d58, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b5ad79ae630]
+  /lib64/libc.so.6(kill+0x7) [0x2b5ad7ef3657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b5ad7edf555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000235de, rsp 00007fffe3c1af68, rbp 00007fffe3c1b4e0
+   rsi 000000000000000b, rdi 00000000000235de, r8  0000000000000020
+   r9  0000000000000401, r10 00007fffe3c1a360, r11 0000000000000202
+   r12 00007fffe3c1b528, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2adb1174c630]
+  /lib64/libc.so.6(kill+0x7) [0x2adb11c91657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2adb11c7d555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000236a4, rsp 00007ffcbbac56d8, rbp 00007ffcbbac5c50
+   rsi 000000000000000b, rdi 00000000000236a4, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffcbbac4ae0, r11 0000000000000206
+   r12 00007ffcbbac5c98, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2aadc7be0630]
+  /lib64/libc.so.6(kill+0x7) [0x2aadc8125657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2aadc8111555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023766, rsp 00007ffc64b10558, rbp 00007ffc64b10ad0
+   rsi 000000000000000b, rdi 0000000000023766, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc64b0f960, r11 0000000000000202
+   r12 00007ffc64b10b18, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b8e5691a630]
+  /lib64/libc.so.6(kill+0x7) [0x2b8e56e5f657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b8e56e4b555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023829, rsp 00007ffe99770858, rbp 00007ffe99770dd0
+   rsi 000000000000000b, rdi 0000000000023829, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe9976fc60, r11 0000000000000202
+   r12 00007ffe99770e18, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b86be852630]
+  /lib64/libc.so.6(kill+0x7) [0x2b86bed97657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b86bed83555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 00000000000238d5, rsp 00007fff81013e88, rbp 00007fff81014400
+   rsi 000000000000000b, rdi 00000000000238d5, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff81013260, r11 0000000000000206
+   r12 00007fff81014448, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b9ca8be4630]
+  /lib64/libc.so.6(kill+0x7) [0x2b9ca9129657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b9ca9115555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023972, rsp 00007ffc7a8ba248, rbp 00007ffc7a8ba7c0
+   rsi 000000000000000b, rdi 0000000000023972, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc7a8b9620, r11 0000000000000206
+   r12 00007ffc7a8ba808, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b9cc17f0630]
+  /lib64/libc.so.6(kill+0x7) [0x2b9cc1d35657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b9cc1d21555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023a37, rsp 00007ffc878bfc68, rbp 00007ffc878c01e0
+   rsi 000000000000000b, rdi 0000000000023a37, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc878bf060, r11 0000000000000202
+   r12 00007ffc878c0228, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ae477eef630]
+  /lib64/libc.so.6(kill+0x7) [0x2ae478434657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ae478420555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023ad4, rsp 00007ffcb61dd768, rbp 00007ffcb61ddce0
+   rsi 000000000000000b, rdi 0000000000023ad4, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffcb61dcb60, r11 0000000000000202
+   r12 00007ffcb61ddd28, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b703e3e9630]
+  /lib64/libc.so.6(kill+0x7) [0x2b703e92e657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b703e91a555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023b9c, rsp 00007fff96a788c8, rbp 00007fff96a78e40
+   rsi 000000000000000b, rdi 0000000000023b9c, r8  0000000000000020
+   r9  0000000000000401, r10 00007fff96a77ca0, r11 0000000000000202
+   r12 00007fff96a78e88, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b1c9a614630]
+  /lib64/libc.so.6(kill+0x7) [0x2b1c9ab59657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b1c9ab45555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023c44, rsp 00007ffd18ed4f48, rbp 00007ffd18ed54c0
+   rsi 000000000000000b, rdi 0000000000023c44, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd18ed4320, r11 0000000000000206
+   r12 00007ffd18ed5508, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ae60a37b630]
+  /lib64/libc.so.6(kill+0x7) [0x2ae60a8c0657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ae60a8ac555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023cf5, rsp 00007ffe01e1bb68, rbp 00007ffe01e1c0e0
+   rsi 000000000000000b, rdi 0000000000023cf5, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffe01e1af60, r11 0000000000000202
+   r12 00007ffe01e1c128, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b20c0ac2630]
+  /lib64/libc.so.6(kill+0x7) [0x2b20c1007657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b20c0ff3555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023dab, rsp 00007ffc08ba7228, rbp 00007ffc08ba77a0
+   rsi 000000000000000b, rdi 0000000000023dab, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc08ba6620, r11 0000000000000206
+   r12 00007ffc08ba77e8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2abc4b9e2630]
+  /lib64/libc.so.6(kill+0x7) [0x2abc4bf27657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2abc4bf13555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023e5c, rsp 00007ffd2230ed48, rbp 00007ffd2230f2c0
+   rsi 000000000000000b, rdi 0000000000023e5c, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffd2230e120, r11 0000000000000206
+   r12 00007ffd2230f308, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b47caad2630]
+  /lib64/libc.so.6(kill+0x7) [0x2b47cb017657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b47cb003555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023ef9, rsp 00007ffea9748978, rbp 00007ffea9748ef0
+   rsi 000000000000000b, rdi 0000000000023ef9, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffea9747d60, r11 0000000000000206
+   r12 00007ffea9748f38, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b161ef56630]
+  /lib64/libc.so.6(kill+0x7) [0x2b161f49b657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b161f487555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000023fa5, rsp 00007ffc52954218, rbp 00007ffc52954790
+   rsi 000000000000000b, rdi 0000000000023fa5, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffc52953620, r11 0000000000000206
+   r12 00007ffc529547d8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2ba25a748630]
+  /lib64/libc.so.6(kill+0x7) [0x2ba25ac8d657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2ba25ac79555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+Error: segmentation violation
+   rax 0000000000000000, rbx ffffffffffffffff, rcx ffffffffffffffff
+   rdx 0000000000024065, rsp 00007ffdc2d8d518, rbp 00007ffdc2d8da90
+   rsi 000000000000000b, rdi 0000000000024065, r8  0000000000000020
+   r9  0000000000000401, r10 00007ffdc2d8c920, r11 0000000000000206
+   r12 00007ffdc2d8dad8, r13 0000000000000000, r14 0000000000000000
+   r15 00000000000003e6
+  /lib64/libpthread.so.0(+0xf630) [0x2b059cad0630]
+  /lib64/libc.so.6(kill+0x7) [0x2b059d015657]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4a4699]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4bce0a]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4e7ebb]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4ce5c6]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4cde3c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x51cf2f]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x413f55]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40e72c]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bd2b]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x40bc34]
+  /lib64/libc.so.6(__libc_start_main+0xf5) [0x2b059d001555]
+  /sw/restricted/lms/sw/Gaussian/g16_B01/g16/l101.exe() [0x4063a9]
+cp: cannot stat ‘/scratch/user/peterchao1/peterchao1/6931660_1675363450000000740527849/*.chk’: No such file or directory
+Cleaning up

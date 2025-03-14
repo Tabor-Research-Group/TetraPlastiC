@@ -1,0 +1,28 @@
+%chk=35.chk
+%nprocshared=4
+%mem=8000mb
+#T wB97XD/def2svpp opt=(Z-matrix,tight) int(grid=ultrafine) scf=(verytight,qc) symm=loose
+
+Monomer
+
+0 1
+C
+Br 1 rbr
+Br 1 rbr 2 A
+Br 1 rbr 2 A 3 120.0
+Br 1 rbr 2 A 3 -120.0
+
+rbr 1.9
+A 109.4712
+
+
+
+
+
+
+
+
+
+
+
+
