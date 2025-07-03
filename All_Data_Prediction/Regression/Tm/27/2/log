@@ -1,0 +1,397 @@
+
+Dimension:   1
+-------------------
+Feature Construction (FC) starts ...
+Total number of features in the space Phi00:             21
+
+Generating Phi01 ...
+mpirank =    0  #generated =             69  #selected =             89  progress =  40.0%
+mpirank =    8  #generated =             12  #selected =             32  progress =  40.0%
+mpirank =    8  #generated =             20  #selected =             40  progress =  60.0%
+mpirank =    8  #generated =             24  #selected =             44  progress = 100.0%
+mpirank =    0  #generated =            135  #selected =            155  progress = 100.0%
+Number of newly generated features:             762
+Redundant check on the newly generated features ...
+Number of newly generated features after redundant check:             740
+Total number of features in the space Phi01:            761
+
+Generating Phi02 ...
+mpirank =    1  #generated =             63  #selected =             83  progress =  40.0%
+mpirank =    1  #generated =            121  #selected =            141  progress = 100.0%
+mpirank =    2  #generated =             57  #selected =             77  progress =  40.0%
+mpirank =    2  #generated =            111  #selected =            131  progress = 100.0%
+mpirank =    3  #generated =             51  #selected =             71  progress =  40.0%
+mpirank =    3  #generated =             99  #selected =            119  progress = 100.0%
+mpirank =    4  #generated =             45  #selected =             65  progress =  40.0%
+mpirank =    4  #generated =             87  #selected =            107  progress = 100.0%
+mpirank =    5  #generated =             38  #selected =             58  progress =  40.0%
+mpirank =    5  #generated =             65  #selected =             85  progress = 100.0%
+mpirank =    6  #generated =             32  #selected =             52  progress =  40.0%
+mpirank =    6  #generated =             60  #selected =             80  progress = 100.0%
+mpirank =    7  #generated =             24  #selected =             44  progress =  20.0%
+mpirank =    7  #generated =             44  #selected =             64  progress =  60.0%
+mpirank =    7  #generated =             60  #selected =             80  progress = 100.0%
+mpirank =    9  #generated =              0  #selected =             20  progress = 100.0%
+mpirank =    9  #generated =          16386  #selected =          16399  progress =  20.0%
+mpirank =    0  #generated =          19335  #selected =          19490  progress =  20.0%
+mpirank =    1  #generated =          17398  #selected =          17524  progress =  20.0%
+mpirank =    2  #generated =          19383  #selected =          19514  progress =  20.0%
+mpirank =    3  #generated =          18633  #selected =          18752  progress =  20.0%
+mpirank =    4  #generated =          18133  #selected =          18234  progress =  20.0%
+mpirank =    5  #generated =          17519  #selected =          17505  progress =  20.0%
+mpirank =    6  #generated =          16939  #selected =          17013  progress =  20.0%
+mpirank =    7  #generated =          17268  #selected =          17348  progress =  20.0%
+mpirank =    8  #generated =          16713  #selected =          16757  progress =  20.0%
+mpirank =    9  #generated =          33108  #selected =          18308  progress =  40.0%
+mpirank =    8  #generated =          33075  #selected =          18815  progress =  40.0%
+mpirank =    6  #generated =          32851  #selected =          19174  progress =  40.0%
+mpirank =    2  #generated =          38712  #selected =          10664  progress =  40.0%
+mpirank =    7  #generated =          35174  #selected =          10168  progress =  40.0%
+mpirank =    0  #generated =          38418  #selected =          11141  progress =  40.0%
+mpirank =    3  #generated =          36600  #selected =          11160  progress =  40.0%
+mpirank =    1  #generated =          33755  #selected =           9392  progress =  40.0%
+mpirank =    4  #generated =          35250  #selected =          10628  progress =  40.0%
+mpirank =    5  #generated =          36442  #selected =          10252  progress =  40.0%
+mpirank =    9  #generated =          50647  #selected =          13579  progress =  60.0%
+mpirank =    8  #generated =          50871  #selected =          15063  progress =  60.0%
+mpirank =    1  #generated =          49928  #selected =          14878  progress =  60.0%
+mpirank =    2  #generated =          56154  #selected =          17712  progress =  60.0%
+mpirank =    7  #generated =          52544  #selected =          17010  progress =  60.0%
+mpirank =    0  #generated =          57247  #selected =          19497  progress =  60.0%
+mpirank =    5  #generated =          53603  #selected =          16782  progress =  60.0%
+mpirank =    6  #generated =          51708  #selected =          15191  progress =  60.0%
+mpirank =    4  #generated =          52240  #selected =          16641  progress =  60.0%
+mpirank =    3  #generated =          56187  #selected =          10114  progress =  60.0%
+mpirank =    9  #generated =          66631  #selected =          17832  progress =  80.0%
+mpirank =    8  #generated =          66940  #selected =          18481  progress =  80.0%
+mpirank =    6  #generated =          70204  #selected =          17877  progress =  80.0%
+mpirank =    1  #generated =          69021  #selected =          18872  progress =  80.0%
+mpirank =    7  #generated =          69202  #selected =          11211  progress =  80.0%
+mpirank =    2  #generated =          71108  #selected =          11059  progress =  80.0%
+mpirank =    3  #generated =          74732  #selected =          14620  progress =  80.0%
+mpirank =    0  #generated =          75733  #selected =          15406  progress =  80.0%
+mpirank =    5  #generated =          72676  #selected =          10483  progress =  80.0%
+mpirank =    9  #generated =          82738  #selected =          19803  progress = 100.0%
+mpirank =    4  #generated =          71694  #selected =          10625  progress =  80.0%
+mpirank =    8  #generated =          84275  #selected =          19418  progress = 100.0%
+mpirank =    6  #generated =          86136  #selected =          17552  progress = 100.0%
+mpirank =    1  #generated =          86520  #selected =          17943  progress = 100.0%
+mpirank =    7  #generated =          86724  #selected =          13463  progress = 100.0%
+mpirank =    2  #generated =          86625  #selected =          12480  progress = 100.0%
+mpirank =    3  #generated =          90423  #selected =          14852  progress = 100.0%
+mpirank =    5  #generated =          88776  #selected =          10653  progress = 100.0%
+mpirank =    4  #generated =          87411  #selected =          11179  progress = 100.0%
+mpirank =    0  #generated =          91625  #selected =          17141  progress = 100.0%
+Number of newly generated features:          871253
+Redundant check on the newly generated features ...
+Number of newly generated features after redundant check:          254126
+Total number of features in the space Phi02:         254887
+
+Generating Phi03 ...
+mpirank =    4  #generated =      119170461  #selected =          17357  progress =  20.0%
+mpirank =    2  #generated =      133418711  #selected =          15225  progress =  20.0%
+mpirank =    6  #generated =      134028378  #selected =          15479  progress =  20.0%
+mpirank =    3  #generated =      136417066  #selected =          17382  progress =  20.0%
+mpirank =    0  #generated =      145037218  #selected =          11808  progress =  20.0%
+mpirank =    5  #generated =      144917548  #selected =          10899  progress =  20.0%
+mpirank =    7  #generated =      146276136  #selected =          11786  progress =  20.0%
+mpirank =    8  #generated =      151751836  #selected =          12054  progress =  20.0%
+mpirank =    1  #generated =      162428818  #selected =          13109  progress =  20.0%
+mpirank =    9  #generated =      193345339  #selected =          16166  progress =  20.0%
+mpirank =    4  #generated =      250488435  #selected =          11296  progress =  40.0%
+mpirank =    2  #generated =      265418179  #selected =          17015  progress =  40.0%
+mpirank =    6  #generated =      268009585  #selected =          14035  progress =  40.0%
+mpirank =    3  #generated =      269879157  #selected =          15421  progress =  40.0%
+mpirank =    5  #generated =      281264797  #selected =          12080  progress =  40.0%
+mpirank =    0  #generated =      294114148  #selected =          15149  progress =  40.0%
+mpirank =    1  #generated =      299621478  #selected =          16613  progress =  40.0%
+mpirank =    7  #generated =      303640822  #selected =          12192  progress =  40.0%
+mpirank =    8  #generated =      323301166  #selected =          11720  progress =  40.0%
+mpirank =    4  #generated =      377011955  #selected =          14507  progress =  60.0%
+mpirank =    9  #generated =      405027574  #selected =          12252  progress =  40.0%
+mpirank =    2  #generated =      406091883  #selected =          16184  progress =  60.0%
+mpirank =    3  #generated =      407651032  #selected =          19790  progress =  60.0%
+mpirank =    6  #generated =      419805167  #selected =          10011  progress =  60.0%
+mpirank =    1  #generated =      435570523  #selected =          12069  progress =  60.0%
+mpirank =    5  #generated =      433419663  #selected =          18507  progress =  60.0%
+mpirank =    0  #generated =      440135162  #selected =          18216  progress =  60.0%
+mpirank =    7  #generated =      462933856  #selected =          13574  progress =  60.0%
+mpirank =    8  #generated =      498709245  #selected =          19433  progress =  60.0%
+mpirank =    4  #generated =      504756319  #selected =          13589  progress =  80.0%
+mpirank =    2  #generated =      533915184  #selected =          19550  progress =  80.0%
+mpirank =    3  #generated =      554481623  #selected =          10303  progress =  80.0%
+mpirank =    6  #generated =      565014608  #selected =          11401  progress =  80.0%
+mpirank =    1  #generated =      570338541  #selected =          19027  progress =  80.0%
+mpirank =    5  #generated =      567013241  #selected =          17814  progress =  80.0%
+mpirank =    0  #generated =      594112763  #selected =          12792  progress =  80.0%
+mpirank =    9  #generated =      629701007  #selected =          11765  progress =  60.0%
+mpirank =    7  #generated =      632848379  #selected =          14193  progress =  80.0%
+mpirank =    4  #generated =      644568816  #selected =          11672  progress = 100.0%
+mpirank =    8  #generated =      673514930  #selected =          13242  progress =  80.0%
+mpirank =    1  #generated =      704634513  #selected =          15271  progress = 100.0%
+mpirank =    5  #generated =      700502982  #selected =          14529  progress = 100.0%
+mpirank =    6  #generated =      730338085  #selected =          17098  progress = 100.0%
+mpirank =    0  #generated =      747172342  #selected =          13242  progress = 100.0%
+mpirank =    7  #generated =      788391004  #selected =          11775  progress = 100.0%
+mpirank =    8  #generated =      860720802  #selected =          10601  progress = 100.0%
+mpirank =    9  #generated =      907904520  #selected =          15405  progress =  80.0%
+mpirank =    9  #generated =     1347409723  #selected =          16151  progress = 100.0%
+Total number of newly generated features:      7873561972
+Total number of features in the space Phi03:     7873816859
+
+Redundant check on selected features ...
+
+Sure Independence Screening on selected features ...
+Size of the SIS-selected subspace from Phi03:      10000
+
+Descriptor Identification (DI) starts ...
+dimension =   1   mpirank =    0   progress =  20.0%
+dimension =   1   mpirank =    0   progress =  40.0%
+dimension =   1   mpirank =    0   progress =  60.0%
+dimension =   1   mpirank =    0   progress =  80.0%
+dimension =   1   mpirank =    0   progress = 100.0%
+
+Dimension:   2
+-------------------
+Feature Construction (FC) starts ...
+dimension =   1   mpirank =    1   progress =  20.0%
+dimension =   1   mpirank =    1   progress =  40.0%
+dimension =   1   mpirank =    1   progress =  60.0%
+dimension =   1   mpirank =    1   progress =  80.0%
+dimension =   1   mpirank =    1   progress = 100.0%
+dimension =   1   mpirank =    2   progress =  20.0%
+dimension =   1   mpirank =    2   progress =  40.0%
+dimension =   1   mpirank =    2   progress =  60.0%
+dimension =   1   mpirank =    2   progress =  80.0%
+dimension =   1   mpirank =    2   progress = 100.0%
+dimension =   1   mpirank =    3   progress =  20.0%
+dimension =   1   mpirank =    3   progress =  40.0%
+dimension =   1   mpirank =    3   progress =  60.0%
+dimension =   1   mpirank =    3   progress =  80.0%
+dimension =   1   mpirank =    3   progress = 100.0%
+dimension =   1   mpirank =    4   progress =  20.0%
+dimension =   1   mpirank =    4   progress =  40.0%
+dimension =   1   mpirank =    4   progress =  60.0%
+dimension =   1   mpirank =    4   progress =  80.0%
+dimension =   1   mpirank =    4   progress = 100.0%
+dimension =   1   mpirank =    5   progress =  20.0%
+dimension =   1   mpirank =    5   progress =  40.0%
+dimension =   1   mpirank =    5   progress =  60.0%
+dimension =   1   mpirank =    5   progress =  80.0%
+dimension =   1   mpirank =    5   progress = 100.0%
+dimension =   1   mpirank =    6   progress =  20.0%
+dimension =   1   mpirank =    6   progress =  40.0%
+dimension =   1   mpirank =    6   progress =  60.0%
+dimension =   1   mpirank =    6   progress =  80.0%
+dimension =   1   mpirank =    6   progress = 100.0%
+dimension =   1   mpirank =    7   progress =  20.0%
+dimension =   1   mpirank =    7   progress =  40.0%
+dimension =   1   mpirank =    7   progress =  60.0%
+dimension =   1   mpirank =    7   progress =  80.0%
+dimension =   1   mpirank =    7   progress = 100.0%
+dimension =   1   mpirank =    8   progress =  20.0%
+dimension =   1   mpirank =    8   progress =  40.0%
+dimension =   1   mpirank =    8   progress =  60.0%
+dimension =   1   mpirank =    8   progress =  80.0%
+dimension =   1   mpirank =    8   progress = 100.0%
+dimension =   1   mpirank =    9   progress =  20.0%
+dimension =   1   mpirank =    9   progress =  40.0%
+dimension =   1   mpirank =    9   progress =  60.0%
+dimension =   1   mpirank =    9   progress =  80.0%
+dimension =   1   mpirank =    9   progress = 100.0%
+Total number of features in the space Phi00:             21
+
+Generating Phi01 ...
+mpirank =    0  #generated =             69  #selected =             89  progress =  40.0%
+mpirank =    0  #generated =            135  #selected =            155  progress = 100.0%
+Number of newly generated features:             762
+Redundant check on the newly generated features ...
+Number of newly generated features after redundant check:             740
+Total number of features in the space Phi01:            761
+
+Generating Phi02 ...
+mpirank =    1  #generated =             63  #selected =             83  progress =  40.0%
+mpirank =    1  #generated =            121  #selected =            141  progress = 100.0%
+mpirank =    2  #generated =             57  #selected =             77  progress =  40.0%
+mpirank =    2  #generated =            111  #selected =            131  progress = 100.0%
+mpirank =    3  #generated =             51  #selected =             71  progress =  40.0%
+mpirank =    3  #generated =             99  #selected =            119  progress = 100.0%
+mpirank =    4  #generated =             45  #selected =             65  progress =  40.0%
+mpirank =    4  #generated =             87  #selected =            107  progress = 100.0%
+mpirank =    5  #generated =             38  #selected =             58  progress =  40.0%
+mpirank =    5  #generated =             65  #selected =             85  progress = 100.0%
+mpirank =    6  #generated =             32  #selected =             52  progress =  40.0%
+mpirank =    6  #generated =             60  #selected =             80  progress = 100.0%
+mpirank =    7  #generated =             24  #selected =             44  progress =  20.0%
+mpirank =    7  #generated =             44  #selected =             64  progress =  60.0%
+mpirank =    7  #generated =             60  #selected =             80  progress = 100.0%
+mpirank =    8  #generated =             12  #selected =             32  progress =  40.0%
+mpirank =    8  #generated =             20  #selected =             40  progress =  60.0%
+mpirank =    8  #generated =             24  #selected =             44  progress = 100.0%
+mpirank =    9  #generated =              0  #selected =             20  progress = 100.0%
+mpirank =    9  #generated =          16386  #selected =          16399  progress =  20.0%
+mpirank =    5  #generated =          17519  #selected =          17505  progress =  20.0%
+mpirank =    6  #generated =          16939  #selected =          17013  progress =  20.0%
+mpirank =    7  #generated =          17268  #selected =          17348  progress =  20.0%
+mpirank =    4  #generated =          18133  #selected =          18234  progress =  20.0%
+mpirank =    8  #generated =          16713  #selected =          16757  progress =  20.0%
+mpirank =    1  #generated =          17398  #selected =          17524  progress =  20.0%
+mpirank =    3  #generated =          18633  #selected =          18752  progress =  20.0%
+mpirank =    0  #generated =          19335  #selected =          19490  progress =  20.0%
+mpirank =    2  #generated =          19383  #selected =          19514  progress =  20.0%
+mpirank =    9  #generated =          33108  #selected =          18308  progress =  40.0%
+mpirank =    8  #generated =          33075  #selected =          18804  progress =  40.0%
+mpirank =    6  #generated =          32851  #selected =          19176  progress =  40.0%
+mpirank =    7  #generated =          35174  #selected =          10160  progress =  40.0%
+mpirank =    5  #generated =          36442  #selected =          10252  progress =  40.0%
+mpirank =    1  #generated =          33755  #selected =           9390  progress =  40.0%
+mpirank =    2  #generated =          38712  #selected =          10664  progress =  40.0%
+mpirank =    4  #generated =          35250  #selected =          10633  progress =  40.0%
+mpirank =    0  #generated =          38418  #selected =          11132  progress =  40.0%
+mpirank =    3  #generated =          36600  #selected =          11160  progress =  40.0%
+mpirank =    9  #generated =          50647  #selected =          13579  progress =  60.0%
+mpirank =    8  #generated =          50871  #selected =          14791  progress =  60.0%
+mpirank =    1  #generated =          49928  #selected =          15058  progress =  60.0%
+mpirank =    7  #generated =          52544  #selected =          16727  progress =  60.0%
+mpirank =    5  #generated =          53603  #selected =          16808  progress =  60.0%
+mpirank =    6  #generated =          51708  #selected =          15802  progress =  60.0%
+mpirank =    4  #generated =          52240  #selected =          16328  progress =  60.0%
+mpirank =    2  #generated =          56154  #selected =          17712  progress =  60.0%
+mpirank =    0  #generated =          57247  #selected =          19483  progress =  60.0%
+mpirank =    9  #generated =          66631  #selected =          18008  progress =  80.0%
+mpirank =    3  #generated =          56187  #selected =          10000  progress =  60.0%
+mpirank =    8  #generated =          66940  #selected =          16384  progress =  80.0%
+mpirank =    7  #generated =          69202  #selected =          19807  progress =  80.0%
+mpirank =    6  #generated =          70204  #selected =          19067  progress =  80.0%
+mpirank =    1  #generated =          69021  #selected =          18953  progress =  80.0%
+mpirank =    4  #generated =          71694  #selected =          17976  progress =  80.0%
+mpirank =    9  #generated =          82738  #selected =          18859  progress = 100.0%
+mpirank =    5  #generated =          72676  #selected =          11006  progress =  80.0%
+mpirank =    0  #generated =          75733  #selected =          15244  progress =  80.0%
+mpirank =    2  #generated =          71108  #selected =          10914  progress =  80.0%
+mpirank =    3  #generated =          74732  #selected =          14384  progress =  80.0%
+mpirank =    8  #generated =          84275  #selected =          16064  progress = 100.0%
+mpirank =    4  #generated =          87411  #selected =          16784  progress = 100.0%
+mpirank =    6  #generated =          86136  #selected =          18704  progress = 100.0%
+mpirank =    1  #generated =          86520  #selected =          18771  progress = 100.0%
+mpirank =    7  #generated =          86724  #selected =          12754  progress = 100.0%
+mpirank =    5  #generated =          88776  #selected =          11106  progress = 100.0%
+mpirank =    2  #generated =          86625  #selected =          12097  progress = 100.0%
+mpirank =    3  #generated =          90423  #selected =          15176  progress = 100.0%
+mpirank =    0  #generated =          91625  #selected =          17345  progress = 100.0%
+Number of newly generated features:          871253
+Redundant check on the newly generated features ...
+Number of newly generated features after redundant check:          254126
+Total number of features in the space Phi02:         254887
+
+Generating Phi03 ...
+mpirank =    4  #generated =      119170461  #selected =          14368  progress =  20.0%
+mpirank =    2  #generated =      133418711  #selected =          18606  progress =  20.0%
+mpirank =    6  #generated =      134028378  #selected =          11957  progress =  20.0%
+mpirank =    3  #generated =      136417066  #selected =          18914  progress =  20.0%
+mpirank =    0  #generated =      145037218  #selected =          16977  progress =  20.0%
+mpirank =    5  #generated =      144917548  #selected =          19998  progress =  20.0%
+mpirank =    7  #generated =      146276136  #selected =          19203  progress =  20.0%
+mpirank =    8  #generated =      151751836  #selected =          19304  progress =  20.0%
+mpirank =    1  #generated =      162428818  #selected =          10048  progress =  20.0%
+mpirank =    9  #generated =      193345339  #selected =          13856  progress =  20.0%
+mpirank =    4  #generated =      250488435  #selected =          10888  progress =  40.0%
+mpirank =    2  #generated =      265418179  #selected =          15407  progress =  40.0%
+mpirank =    6  #generated =      268009585  #selected =          11710  progress =  40.0%
+mpirank =    3  #generated =      269879157  #selected =          13745  progress =  40.0%
+mpirank =    5  #generated =      281264797  #selected =          17332  progress =  40.0%
+mpirank =    0  #generated =      294114148  #selected =          10791  progress =  40.0%
+mpirank =    1  #generated =      299621478  #selected =          16338  progress =  40.0%
+mpirank =    7  #generated =      303640822  #selected =          16431  progress =  40.0%
+mpirank =    8  #generated =      323301166  #selected =          13771  progress =  40.0%
+mpirank =    4  #generated =      377011955  #selected =          17669  progress =  60.0%
+mpirank =    9  #generated =      405027574  #selected =          15597  progress =  40.0%
+mpirank =    2  #generated =      406091883  #selected =          10842  progress =  60.0%
+mpirank =    3  #generated =      407651032  #selected =          10608  progress =  60.0%
+mpirank =    6  #generated =      419805167  #selected =          13073  progress =  60.0%
+mpirank =    1  #generated =      435570523  #selected =          12239  progress =  60.0%
+mpirank =    5  #generated =      433419663  #selected =          11312  progress =  60.0%
+mpirank =    0  #generated =      440135162  #selected =          16700  progress =  60.0%
+mpirank =    7  #generated =      462933856  #selected =          15343  progress =  60.0%
+mpirank =    8  #generated =      498709245  #selected =          10606  progress =  60.0%
+mpirank =    4  #generated =      504756319  #selected =          11775  progress =  80.0%
+mpirank =    2  #generated =      533915184  #selected =          17527  progress =  80.0%
+mpirank =    3  #generated =      554481623  #selected =          10059  progress =  80.0%
+mpirank =    6  #generated =      565014608  #selected =          10888  progress =  80.0%
+mpirank =    1  #generated =      570338541  #selected =          15748  progress =  80.0%
+mpirank =    5  #generated =      567013241  #selected =          12729  progress =  80.0%
+mpirank =    0  #generated =      594112763  #selected =          16367  progress =  80.0%
+mpirank =    9  #generated =      629701007  #selected =          10025  progress =  60.0%
+mpirank =    7  #generated =      632848379  #selected =          11518  progress =  80.0%
+mpirank =    4  #generated =      644568816  #selected =          17099  progress = 100.0%
+mpirank =    8  #generated =      673514930  #selected =          15384  progress =  80.0%
+mpirank =    1  #generated =      704634513  #selected =          10265  progress = 100.0%
+mpirank =    5  #generated =      700502982  #selected =          10464  progress = 100.0%
+mpirank =    6  #generated =      730338085  #selected =          11934  progress = 100.0%
+mpirank =    0  #generated =      747172342  #selected =          19404  progress = 100.0%
+mpirank =    7  #generated =      788391004  #selected =          17161  progress = 100.0%
+mpirank =    8  #generated =      860720802  #selected =          11682  progress = 100.0%
+mpirank =    9  #generated =      907904520  #selected =          11109  progress =  80.0%
+mpirank =    9  #generated =     1347409723  #selected =          15928  progress = 100.0%
+Total number of newly generated features:      7873561972
+Total number of features in the space Phi03:     7873816859
+
+Redundant check on selected features ...
+
+Sure Independence Screening on selected features ...
+Size of the SIS-selected subspace from Phi03:      10000
+
+Descriptor Identification (DI) starts ...
+dimension =   2   mpirank =    0   progress =  20.0%
+dimension =   2   mpirank =    1   progress =  20.0%
+dimension =   2   mpirank =    2   progress =  20.0%
+dimension =   2   mpirank =    3   progress =  20.0%
+dimension =   2   mpirank =    4   progress =  20.0%
+dimension =   2   mpirank =    5   progress =  20.0%
+dimension =   2   mpirank =    6   progress =  20.0%
+dimension =   2   mpirank =    7   progress =  20.0%
+dimension =   2   mpirank =    8   progress =  20.0%
+dimension =   2   mpirank =    9   progress =  20.0%
+dimension =   2   mpirank =    0   progress =  40.0%
+dimension =   2   mpirank =    1   progress =  40.0%
+dimension =   2   mpirank =    2   progress =  40.0%
+dimension =   2   mpirank =    3   progress =  40.0%
+dimension =   2   mpirank =    4   progress =  40.0%
+dimension =   2   mpirank =    5   progress =  40.0%
+dimension =   2   mpirank =    6   progress =  40.0%
+dimension =   2   mpirank =    7   progress =  40.0%
+dimension =   2   mpirank =    8   progress =  40.0%
+dimension =   2   mpirank =    9   progress =  40.0%
+dimension =   2   mpirank =    0   progress =  60.0%
+dimension =   2   mpirank =    1   progress =  60.0%
+dimension =   2   mpirank =    2   progress =  60.0%
+dimension =   2   mpirank =    3   progress =  60.0%
+dimension =   2   mpirank =    4   progress =  60.0%
+dimension =   2   mpirank =    5   progress =  60.0%
+dimension =   2   mpirank =    6   progress =  60.0%
+dimension =   2   mpirank =    7   progress =  60.0%
+dimension =   2   mpirank =    8   progress =  60.0%
+dimension =   2   mpirank =    9   progress =  60.0%
+dimension =   2   mpirank =    0   progress =  80.0%
+dimension =   2   mpirank =    1   progress =  80.0%
+dimension =   2   mpirank =    2   progress =  80.0%
+dimension =   2   mpirank =    3   progress =  80.0%
+dimension =   2   mpirank =    4   progress =  80.0%
+dimension =   2   mpirank =    5   progress =  80.0%
+dimension =   2   mpirank =    6   progress =  80.0%
+dimension =   2   mpirank =    7   progress =  80.0%
+dimension =   2   mpirank =    8   progress =  80.0%
+dimension =   2   mpirank =    9   progress =  80.0%
+dimension =   2   mpirank =    0   progress = 100.0%
+dimension =   2   mpirank =    1   progress = 100.0%
+dimension =   2   mpirank =    2   progress = 100.0%
+dimension =   2   mpirank =    3   progress = 100.0%
+dimension =   2   mpirank =    4   progress = 100.0%
+dimension =   2   mpirank =    5   progress = 100.0%
+dimension =   2   mpirank =    6   progress = 100.0%
+dimension =   2   mpirank =    7   progress = 100.0%
+dimension =   2   mpirank =    8   progress = 100.0%
+dimension =   2   mpirank =    9   progress = 100.0%
+
+SISSO done successfully!
+
